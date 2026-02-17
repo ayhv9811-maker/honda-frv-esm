@@ -172,7 +172,7 @@ function WordSearch()
   }
   strTree += gModelInfo[gESM.mySel].CodeList[gESM.mcSel].Code + "_";
   strTree += gModelInfo[gESM.mySel].Year + ".html";
-  var f12url = "/en/html/" + strTree; console.log("Loading F12: " + f12url); parent.document.getElementById("F12").src = f12url;
+  var f12url = "en/html/" + strTree; console.log("Loading F12: " + f12url); parent.document.getElementById("F12").src = f12url;
 }
 function ClearSearch()
 {
@@ -187,7 +187,7 @@ function ClearSearch()
   gESM.Keyword = "";     
   document.getElementById("txtWord").value = "";
 
-  parent.document.getElementById("F12").src="/en/html/ESMBLANK.HTML";
+  parent.document.getElementById("F12").src="en/html/ESMBLANK.HTML";
   if(document.getElementById("radSM").checked == true) {
     strTree = "SMT_";
   }
@@ -222,7 +222,7 @@ function OnChangeLang()
 }
 function OnChangeText()
 {
-  parent.document.getElementById("F12").src="/en/html/ESMBLANK.HTML";
+  parent.document.getElementById("F12").src="en/html/ESMBLANK.HTML";
 }
 function OnChangeModelYear()
 {
@@ -246,7 +246,7 @@ function OnChangeModelCode()
 
   gESM.mcSel = document.getElementById("cmbMC").selectedIndex;
   parent.ChangeModelCode(true);
-  parent.document.getElementById("F12").src="/en/html/ESMBLANK.HTML";
+  parent.document.getElementById("F12").src="en/html/ESMBLANK.HTML";
   if(document.getElementById("radSM").checked == true) {
     strTree = "SMT_";
   }
@@ -285,7 +285,7 @@ function OnChangeIndv(fReload, nIndex)
     document.getElementById("radBM").checked=true;
     gESM.manTyp = "BM";
   }
-  parent.document.getElementById("F12").src="/en/html/ESMBLANK.HTML";
+  parent.document.getElementById("F12").src="en/html/ESMBLANK.HTML";
 
   var  strTree;
 
@@ -339,7 +339,7 @@ function Tsl(key,sct,sc,sys,comp,sitq){
   if (key || sct || sc || sys || comp || sitq) {
     WordSearch();
   } else {
-    parent.document.getElementById("F12").src="/en/html/ESMBLANK.HTML";
+    parent.document.getElementById("F12").src="en/html/ESMBLANK.HTML";
   }
 }
 
