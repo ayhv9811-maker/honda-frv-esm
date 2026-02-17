@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<title>Honda FR-V Service Manual</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+  
+  :root {
+    --honda-red: #CC0000;
+    --honda-dark: #1a1a2e;
+    --honda-gray: #f0f0f5;
+    --honda-border: #dddde3;
+    --honda-text: #2c2c3a;
+    --honda-muted: #6b6b80;
+    --header-h: 56px;
+    --safe-bottom: env(safe-area-inset-bottom, 0px);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  
+  html, body {
+    height: 100%; 
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--honda-gray);
+    color: var(--honda-text);
+    overflow: hidden;
+  }
+
+  /* Header */
+  .header {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    height: var(--header-h);
+    background: var(--honda-dark);
+    display: flex; align-items: center; padding: 0 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+  }
+  .header-logo {
+    width: 32px; height: 32px; margin-right: 10px; flex-shrink: 0;
+    background: var(--honda-red); border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700; color: white; font-size: 14px;
+  }
+  .header-title { color: white; font-size: 15px; font-weight: 600; flex: 1; }
+  .header-sub { color: rgba(255,255,255,0.6); font-size: 11px; font-weight: 400; }
+  .header-btn {
+    width: 36px; height: 36px; border: none; background: rgba(255,255,255,0.1);
+    border-radius: 8px; color: white; font-size: 18px; cursor: pointer;
+    display: flex; align-items: center; justify-content: center; margin-left: 8px;
+  }
+  .header-btn:active { background: rgba(255,255,255,0.2); }
+  .header-btn.active { background: var(--honda-red); }
+
+  /* Model selector bar */
+  .model-bar {
+    position: fixed; top: var(--header-h); left: 0; right: 0; z-index: 99;
+    background: white; border-bottom: 1px solid var(--honda-border);
+    padding: 8px 12px; display: flex; gap: 8px; align-items: center;
+  }
+  .model-bar select {
+    flex: 1; height: 36px; border: 1px solid var(--honda-border);
+    border-radius: 8px; padding: 0 10px; font-size: 14px;
+    background: white; color: var(--honda-text);
+    font-family: inherit; appearance: auto;
+  }
+  .model-bar label { font-size: 12px; font-weight: 600; color: var(--honda-muted); }
+
+  /* Main area */
+  .main {
+    position: fixed;
+    top: calc(var(--header-h) + 53px);
+    left: 0; right: 0; bottom: 0;
+    overflow: hidden;
+  }
+
+  /* Panels */
+  .panel { 
+    position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+    overflow-y: auto; -webkit-overflow-scrolling: touch;
+    background: var(--honda-gray);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    padding-bottom: var(--safe-bottom);
+  }
+  .panel.hidden-right { transform: translateX(100%); }
+  .panel.hidden-left { transform: translateX(-100%); }
+
+  /* Search panel */
+  .search-box {
+    position: sticky; top: 0; z-index: 10;
+    background: var(--honda-gray); padding: 10px 12px;
+  }
+  .search-input {
+    width: 100%; height: 40px; border: 1px solid var(--honda-border);
+    border-radius: 10px; padding: 0 14px 0 38px; font-size: 15px;
+    background: white; font-family: inherit; outline: none;
+  }
+  .search-input:focus { border-color: var(--honda-red); box-shadow: 0 0 0 3px rgba(204,0,0,0.1); }
+  .search-icon {
+    position: absolute; left: 24px; top: 50%; transform: translateY(-50%);
+    color: var(--honda-muted); font-size: 16px; pointer-events: none;
+  }
+
+  /* Tree items */
+  .tree-section { padding: 0 12px 12px; }
+  .tree-group { 
+    background: white; border-radius: 12px; margin-bottom: 8px;
+    border: 1px solid var(--honda-border); overflow: hidden;
+  }
+  .tree-item {
+    display: flex; align-items: center; padding: 12px 14px;
+    cursor: pointer; border-bottom: 1px solid #f0f0f2;
+    transition: background 0.15s;
+  }
+  .tree-item:last-child { border-bottom: none; }
+  .tree-item:active { background: #f5f5fa; }
+  .tree-item.level-0 { font-weight: 600; font-size: 15px; }
+  .tree-item.level-1 { padding-left: 28px; font-size: 14px; }
+  .tree-item.level-2 { padding-left: 42px; font-size: 13px; color: var(--honda-muted); }
+  .tree-item.selected { background: #fff0f0; color: var(--honda-red); }
+  .tree-chevron { 
+    margin-left: auto; color: var(--honda-muted); font-size: 14px; 
+    flex-shrink: 0; padding-left: 8px;
+  }
+  .tree-item.collapsed .tree-chevron { transform: rotate(0deg); }
+  .tree-item.expanded .tree-chevron { transform: rotate(90deg); }
+  .tree-children { display: none; }
+  .tree-children.open { display: block; }
+
+  /* Article list */
+  .article-list { padding: 0 12px 12px; }
+  .article-count { 
+    padding: 8px 14px; font-size: 12px; font-weight: 600; 
+    color: var(--honda-muted); text-transform: uppercase; letter-spacing: 0.5px;
+  }
+  .article-card {
+    background: white; border-radius: 10px; margin-bottom: 6px;
+    border: 1px solid var(--honda-border); padding: 14px;
+    cursor: pointer; transition: background 0.15s;
+  }
+  .article-card:active { background: #f5f5fa; }
+  .article-title { font-size: 14px; font-weight: 500; line-height: 1.4; }
+  .article-meta { font-size: 11px; color: var(--honda-muted); margin-top: 4px; }
+
+  /* Content viewer */
+  #contentPanel {
+    background: white;
+  }
+  .content-header {
+    position: sticky; top: 0; z-index: 10;
+    background: white; border-bottom: 1px solid var(--honda-border);
+    padding: 10px 12px; display: flex; align-items: center; gap: 10px;
+  }
+  .back-btn {
+    width: 36px; height: 36px; border: none; background: var(--honda-gray);
+    border-radius: 8px; font-size: 18px; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .back-btn:active { background: var(--honda-border); }
+  .content-title { font-size: 14px; font-weight: 600; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .content-frame {
+    width: 100%; border: none;
+    height: calc(100vh - var(--header-h) - 53px - 57px);
+  }
+
+  /* Loading */
+  .loading {
+    display: flex; align-items: center; justify-content: center;
+    padding: 40px; color: var(--honda-muted); font-size: 14px;
+  }
+  .spinner {
+    width: 20px; height: 20px; border: 2px solid var(--honda-border);
+    border-top-color: var(--honda-red); border-radius: 50%;
+    animation: spin 0.6s linear infinite; margin-right: 10px;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* Empty state */
+  .empty-state {
+    text-align: center; padding: 60px 30px; color: var(--honda-muted);
+  }
+  .empty-state .icon { font-size: 48px; margin-bottom: 12px; opacity: 0.3; }
+  .empty-state h3 { font-size: 16px; font-weight: 600; margin-bottom: 6px; color: var(--honda-text); }
+  .empty-state p { font-size: 13px; line-height: 1.5; }
+
+  /* Bottom nav for switching tree/articles */
+  .bottom-tabs {
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 100;
+    background: white; border-top: 1px solid var(--honda-border);
+    display: flex; padding-bottom: var(--safe-bottom);
+  }
+  .bottom-tab {
+    flex: 1; height: 50px; border: none; background: none; cursor: pointer;
+    font-size: 11px; font-weight: 600; color: var(--honda-muted);
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;
+    font-family: inherit;
+  }
+  .bottom-tab.active { color: var(--honda-red); }
+  .bottom-tab .tab-icon { font-size: 20px; }
+
+  /* Adjust main for bottom tabs */
+  .main { bottom: calc(50px + var(--safe-bottom)); }
+
+  /* Desktop redirect notice */
+  @media (min-width: 769px) {
+    .mobile-only { display: none !important; }
+    .desktop-notice {
+      display: flex; align-items: center; justify-content: center;
+      height: 100vh; text-align: center; padding: 40px;
+    }
+    .desktop-notice a { color: var(--honda-red); font-weight: 600; }
+  }
+  @media (max-width: 768px) {
+    .desktop-notice { display: none !important; }
+  }
+</style>
+</head>
+<body>
+
+<!-- Desktop notice -->
+<div class="desktop-notice">
+  <div>
+    <h2>Honda FR-V Service Manual</h2>
+    <p style="margin:16px 0;color:var(--honda-muted);">You're on a desktop browser. For the full experience:</p>
+    <p><a href="HONDAESM.HTML">Open Desktop Version →</a></p>
+    <p style="margin-top:12px;font-size:13px;color:var(--honda-muted);">This page is optimized for mobile devices.</p>
+  </div>
+</div>
+
+<!-- Mobile UI -->
+<div class="mobile-only">
+
+  <!-- Header -->
+  <div class="header">
+    <div class="header-logo">H</div>
+    <div style="flex:1">
+      <div class="header-title">FR-V Shop Manual</div>
+      <div class="header-sub">Honda (2004-2009)</div>
+    </div>
+  </div>
+
+  <!-- Model selector -->
+  <div class="model-bar">
+    <div style="flex:1">
+      <label>Year</label>
+      <select id="selYear" onchange="onModelChange()">
+        <option value="2005">2005</option>
+        <option value="2006">2006</option>
+        <option value="2007" selected>2007</option>
+      </select>
+    </div>
+    <div style="flex:1">
+      <label>Model</label>
+      <select id="selCode" onchange="onModelChange()">
+        <option value="BE1">BE1</option>
+        <option value="BE5">BE5</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Main content area -->
+  <div class="main">
+
+    <!-- Tree Panel -->
+    <div class="panel" id="treePanel">
+      <div class="search-box" style="position:relative">
+        <span class="search-icon">🔍</span>
+        <input class="search-input" id="searchInput" type="text" placeholder="Search articles..." oninput="onSearch()">
+      </div>
+      <div id="treeContainer" class="tree-section">
+        <div class="loading"><div class="spinner"></div>Loading...</div>
+      </div>
+    </div>
+
+    <!-- Articles Panel -->
+    <div class="panel hidden-right" id="articlesPanel">
+      <div class="content-header">
+        <button class="back-btn" onclick="showTree()">←</button>
+        <div class="content-title" id="articlesPanelTitle">Articles</div>
+      </div>
+      <div id="articlesContainer" class="article-list"></div>
+    </div>
+
+    <!-- Content Panel -->
+    <div class="panel hidden-right" id="contentPanel">
+      <div class="content-header">
+        <button class="back-btn" onclick="backFromContent()">←</button>
+        <div class="content-title" id="contentTitle">Loading...</div>
+      </div>
+      <iframe id="contentFrame" class="content-frame" sandbox="allow-same-origin allow-scripts"></iframe>
+    </div>
+
+  </div>
+
+  <!-- Bottom tabs -->
+  <div class="bottom-tabs" id="bottomTabs">
+    <button class="bottom-tab active" onclick="showTree()" id="tabTree">
+      <span class="tab-icon">📂</span>Browse
+    </button>
+    <button class="bottom-tab" onclick="showSearch()" id="tabSearch">
+      <span class="tab-icon">🔍</span>Search
+    </button>
+  </div>
+
+</div>
+
+<script>
+// State
+let currentYear = '2007';
+let currentCode = 'BE1';
+let treeData = null;
+let articleData = null;
+let currentView = 'tree'; // tree, articles, content
+let previousView = 'tree';
+let searchMode = false;
+
+// Model configs
+const modelConfig = {
+  '2005': ['BE1', 'BE3'],
+  '2006': ['BE1', 'BE3', 'BE5'],
+  '2007': ['BE1', 'BE5']
+};
+
+// Code display names
+const codeNames = {
+  'BE1': 'BE1 (1.7L i-VTEC)',
+  'BE3': 'BE3 (2.0L i-VTEC)',
+  'BE5': 'BE5 (2.2L i-CDTi)'
+};
+
+// Initialize
+document.addEventListener('DOMContentLoaded', function() {
+  // Auto-redirect desktop to HONDAESM.HTML
+  if (window.innerWidth > 768 && !window.location.hash.includes('force-mobile')) {
+    // Show the desktop notice, don't auto-redirect
+  }
+  
+  updateModelSelectors();
+  loadData();
+});
+
+function updateModelSelectors() {
+  const yearSel = document.getElementById('selYear');
+  const codeSel = document.getElementById('selCode');
+  
+  currentYear = yearSel.value;
+  const codes = modelConfig[currentYear] || ['BE1'];
+  
+  codeSel.innerHTML = '';
+  codes.forEach(c => {
+    const opt = document.createElement('option');
+    opt.value = c;
+    opt.textContent = codeNames[c] || c;
+    codeSel.appendChild(opt);
+  });
+  
+  if (codes.includes(currentCode)) {
+    codeSel.value = currentCode;
+  } else {
+    currentCode = codes[0];
+    codeSel.value = currentCode;
+  }
+}
+
+function onModelChange() {
+  updateModelSelectors();
+  currentYear = document.getElementById('selYear').value;
+  currentCode = document.getElementById('selCode').value;
+  loadData();
+}
+
+async function loadData() {
+  const treeKey = `SMT_${currentCode}_${currentYear}`;
+  const artKey = `SML_${currentCode}_${currentYear}`;
+  
+  document.getElementById('treeContainer').innerHTML = '<div class="loading"><div class="spinner"></div>Loading navigation...</div>';
+  
+  try {
+    // Fetch tree data
+    const treeResp = await fetch(`en/html/${treeKey}.html`);
+    const treeHtml = await treeResp.text();
+    treeData = parseTreeData(treeHtml);
+    
+    // Fetch article data
+    const artResp = await fetch(`en/html/${artKey}.html`);
+    const artHtml = await artResp.text();
+    articleData = parseArticleData(artHtml);
+    
+    renderTree();
+  } catch(e) {
+    document.getElementById('treeContainer').innerHTML = 
+      `<div class="empty-state"><div class="icon">⚠️</div><h3>Loading Error</h3><p>Could not load data for ${currentYear} ${currentCode}.<br>${e.message}</p></div>`;
+  }
+}
+
+function parseTreeData(html) {
+  const items = [];
+  const regex = /SearchTreeItem\((\d+),"([^"]*?)","([^"]*?)","([^"]*?)","([^"]*?)","([^"]*?)","([^"]*?)","([^"]*?)"\)/g;
+  let m;
+  while ((m = regex.exec(html)) !== null) {
+    items.push({
+      level: parseInt(m[1]),
+      sitq: m[2], sct: m[3], sc: m[4],
+      sys: m[5], comp: m[6], supp: m[7],
+      name: m[8]
+    });
+  }
+  return items;
+}
+
+function parseArticleData(html) {
+  const items = [];
+  // SieTitleItem
+  const regex1 = /SieTitleItem\("([^"]*?)","([^"]*?)","([^"]*?)","([^"]*?)","([^"]*?)","([^"]*?)","([^"]*?)"\)/g;
+  let m;
+  while ((m = regex1.exec(html)) !== null) {
+    items.push({
+      sieKey: m[1], contentsNum: m[2], symbol: m[3],
+      title: m[4], subTitle: m[5], dgc: m[6]
+    });
+  }
+  // SieDTCTitleItem
+  const regex2 = /SieDTCTitleItem\("([^"]*?)","([^"]*?)","([^"]*?)","([^"]*?)","([^"]*?)","([^"]*?)","([^"]*?)","([^"]*?)"\)/g;
+  while ((m = regex2.exec(html)) !== null) {
+    items.push({
+      sieKey: m[1], contentsNum: m[2], symbol: m[3],
+      title: m[4], subTitle: m[5], dgc: m[6]
+    });
+  }
+  return items;
+}
+
+function renderTree() {
+  if (!treeData || treeData.length === 0) {
+    document.getElementById('treeContainer').innerHTML = 
+      '<div class="empty-state"><div class="icon">📂</div><h3>No Data</h3><p>No navigation tree found for this model.</p></div>';
+    return;
+  }
+  
+  // Build hierarchical structure
+  const html = [];
+  let groupOpen = false;
+  
+  for (let i = 0; i < treeData.length; i++) {
+    const item = treeData[i];
+    const nextItem = treeData[i + 1];
+    const hasChildren = nextItem && nextItem.level > item.level;
+    
+    if (item.level === 0) {
+      if (groupOpen) html.push('</div>');
+      html.push('<div class="tree-group">');
+      groupOpen = true;
+    }
+    
+    html.push(`<div class="tree-item level-${item.level}" data-index="${i}" onclick="onTreeClick(${i})">`);
+    html.push(`<span>${item.name}</span>`);
+    if (hasChildren && item.level === 0) {
+      html.push('<span class="tree-chevron">▸</span>');
+    } else if (item.level === 0 || !hasChildren) {
+      html.push('<span class="tree-chevron" style="opacity:0.3">›</span>');
+    }
+    html.push('</div>');
+  }
+  if (groupOpen) html.push('</div>');
+  
+  document.getElementById('treeContainer').innerHTML = html.join('');
+}
+
+function onTreeClick(index) {
+  const item = treeData[index];
+  
+  // Filter articles based on the tree item's filter criteria
+  const filtered = filterArticles(item);
+  
+  if (filtered.length > 0) {
+    showArticles(item.name, filtered);
+  } else {
+    // If no direct matches, maybe it's a parent - show children
+    showArticles(item.name, []);
+  }
+}
+
+function filterArticles(treeItem) {
+  if (!articleData) return [];
+  
+  return articleData.filter(art => {
+    const sie = art.sieKey;
+    if (sie.length < 25) return false;
+    
+    const artSct = sie.charAt(7);
+    const artSc = sie.substring(8, 11);
+    const artSys = sie.substring(11, 14);
+    const artComp = sie.substring(14, 19);
+    const artSitq = sie.substring(19, 21);
+    const artSupp = sie.substring(22, 25);
+    
+    // Match section
+    if (treeItem.sct && treeItem.sct !== '') {
+      const scts = treeItem.sct.split(',');
+      let matched = false;
+      for (const s of scts) {
+        if (s === '') continue;
+        if (s.startsWith('!')) {
+          if (s.substring(1) === artSct) return false;
+          matched = true;
+        } else if (s === artSct) {
+          matched = true;
+        }
+      }
+      if (scts.length > 0 && scts[0] !== '' && !scts[0].startsWith('!') && !matched) return false;
+    }
+    
+    // Match sub-category
+    if (treeItem.sc && treeItem.sc !== '') {
+      const scs = treeItem.sc.split(',');
+      let matched = false;
+      for (const s of scs) {
+        if (s === '') continue;
+        if (s.startsWith('!')) {
+          if (s.substring(1) === artSc) return false;
+          matched = true;
+        } else if (s === artSc) {
+          matched = true;
+        }
+      }
+      if (scs.length > 0 && scs[0] !== '' && !scs[0].startsWith('!') && !matched) return false;
+    }
+    
+    // Match system
+    if (treeItem.sys && treeItem.sys !== '') {
+      const syss = treeItem.sys.split(',');
+      let matched = false;
+      for (const s of syss) {
+        if (s === '') continue;
+        if (s.startsWith('!')) {
+          if (s.substring(1) === artSys) return false;
+          matched = true;
+        } else if (s === artSys) {
+          matched = true;
+        }
+      }
+      if (syss.length > 0 && syss[0] !== '' && !syss[0].startsWith('!') && !matched) return false;
+    }
+    
+    // Match component
+    if (treeItem.comp && treeItem.comp !== '') {
+      if (treeItem.comp !== artComp.substring(0, treeItem.comp.length)) return false;
+    }
+    
+    // Match SITQ with wildcards
+    if (treeItem.sitq && treeItem.sitq !== '') {
+      const sitqs = treeItem.sitq.split(',');
+      let matched = false;
+      for (const s of sitqs) {
+        if (s === '') continue;
+        const clean = s.startsWith('!') ? s.substring(1) : s;
+        let match = true;
+        for (let ci = 0; ci < clean.length && ci < artSitq.length; ci++) {
+          if (clean.charAt(ci) !== '?' && clean.charAt(ci) !== artSitq.charAt(ci)) {
+            match = false; break;
+          }
+        }
+        if (s.startsWith('!')) {
+          if (match) return false;
+          matched = true;
+        } else if (match) {
+          matched = true;
+        }
+      }
+      if (sitqs.length > 0 && sitqs[0] !== '' && !sitqs[0].startsWith('!') && !matched) return false;
+    }
+    
+    return true;
+  });
+}
+
+function showArticles(title, articles) {
+  const panel = document.getElementById('articlesPanel');
+  const container = document.getElementById('articlesContainer');
+  
+  document.getElementById('articlesPanelTitle').textContent = title;
+  
+  if (articles.length === 0) {
+    container.innerHTML = `<div class="empty-state"><div class="icon">📋</div><h3>No Articles</h3><p>No articles found for "${title}".<br>Try selecting a more specific category.</p></div>`;
+  } else {
+    let html = `<div class="article-count">${articles.length} article${articles.length !== 1 ? 's' : ''}</div>`;
+    articles.forEach(art => {
+      html += `<div class="article-card" onclick="openContent('${art.contentsNum}', '${art.title.replace(/'/g, "\\'")}')">
+        <div class="article-title">${art.title}</div>
+        <div class="article-meta">${art.contentsNum}</div>
+      </div>`;
+    });
+    container.innerHTML = html;
+  }
+  
+  // Slide panels
+  document.getElementById('treePanel').classList.add('hidden-left');
+  panel.classList.remove('hidden-right');
+  previousView = 'tree';
+  currentView = 'articles';
+  container.scrollTop = 0;
+}
+
+function showTree() {
+  document.getElementById('treePanel').classList.remove('hidden-left', 'hidden-right');
+  document.getElementById('articlesPanel').classList.add('hidden-right');
+  document.getElementById('contentPanel').classList.add('hidden-right');
+  currentView = 'tree';
+  
+  document.getElementById('tabTree').classList.add('active');
+  document.getElementById('tabSearch').classList.remove('active');
+}
+
+function showSearch() {
+  showTree();
+  setTimeout(() => document.getElementById('searchInput').focus(), 300);
+  document.getElementById('tabSearch').classList.add('active');
+  document.getElementById('tabTree').classList.remove('active');
+}
+
+function openContent(contentsNum, title) {
+  const panel = document.getElementById('contentPanel');
+  document.getElementById('contentTitle').textContent = title;
+  
+  const frame = document.getElementById('contentFrame');
+  frame.src = `en/html/${contentsNum}.html`;
+  
+  // Slide
+  document.getElementById('articlesPanel').classList.add('hidden-left');
+  panel.classList.remove('hidden-right');
+  previousView = 'articles';
+  currentView = 'content';
+  
+  // Hide bottom tabs when viewing content
+  document.getElementById('bottomTabs').style.display = 'none';
+  
+  // Inject mobile-friendly CSS into iframe once loaded
+  frame.onload = function() {
+    try {
+      const doc = frame.contentDocument || frame.contentWindow.document;
+      // Provide stub functions the content pages expect
+      if (frame.contentWindow) {
+        frame.contentWindow.Old = function() {};
+        frame.contentWindow.parent = {
+          Old: function() {},
+          Cts: function(key, anc) { openContentByKey(key, anc); },
+          Tsl: function() {},
+          document: { ESM: {} }
+        };
+      }
+      const style = doc.createElement('style');
+      style.textContent = `
+        body { 
+          font-size: 14px !important; 
+          margin: 8px !important;
+          font-family: -apple-system, sans-serif !important;
+          overflow-x: auto !important;
+          word-wrap: break-word !important;
+        }
+        img { max-width: 100% !important; height: auto !important; }
+        table { max-width: 100% !important; font-size: 12px !important; }
+        td, th { padding: 4px !important; }
+        .top_title { font-size: 18px !important; font-weight: 700 !important; padding: 8px 0 !important; }
+        .servinfosub_title { font-size: 15px !important; margin: 12px 0 6px !important; }
+        svg { max-width: 100% !important; height: auto !important; }
+      `;
+      doc.head.appendChild(style);
+    } catch(e) { /* cross-origin, ignore */ }
+  };
+}
+
+function openContentByKey(key, anc) {
+  // Find article by key
+  if (!articleData) return;
+  // The key is a content file name without .html
+  openContent(key, key);
+}
+
+function backFromContent() {
+  document.getElementById('contentPanel').classList.add('hidden-right');
+  document.getElementById('articlesPanel').classList.remove('hidden-left', 'hidden-right');
+  document.getElementById('bottomTabs').style.display = 'flex';
+  currentView = 'articles';
+}
+
+// Search
+let searchTimeout = null;
+function onSearch() {
+  clearTimeout(searchTimeout);
+  searchTimeout = setTimeout(doSearch, 300);
+}
+
+function doSearch() {
+  const query = document.getElementById('searchInput').value.trim().toLowerCase();
+  
+  if (query.length < 2) {
+    renderTree();
+    return;
+  }
+  
+  if (!articleData) return;
+  
+  const matches = articleData.filter(art => 
+    art.title.toLowerCase().includes(query) || 
+    (art.subTitle && art.subTitle.toLowerCase().includes(query))
+  );
+  
+  const container = document.getElementById('treeContainer');
+  
+  if (matches.length === 0) {
+    container.innerHTML = `<div class="empty-state"><div class="icon">🔍</div><h3>No Results</h3><p>No articles matching "${query}".</p></div>`;
+    return;
+  }
+  
+  let html = `<div class="article-count">${matches.length} result${matches.length !== 1 ? 's' : ''}</div>`;
+  matches.slice(0, 50).forEach(art => {
+    const highlighted = art.title.replace(
+      new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi'),
+      '<mark style="background:#ffe0e0;padding:0 2px;border-radius:2px">$1</mark>'
+    );
+    html += `<div class="article-card" onclick="openContentDirect('${art.contentsNum}', '${art.title.replace(/'/g, "\\'")}')">
+      <div class="article-title">${highlighted}</div>
+      <div class="article-meta">${art.contentsNum}</div>
+    </div>`;
+  });
+  
+  if (matches.length > 50) {
+    html += `<div class="article-count">Showing first 50 of ${matches.length} results</div>`;
+  }
+  
+  container.innerHTML = html;
+}
+
+function openContentDirect(contentsNum, title) {
+  const panel = document.getElementById('contentPanel');
+  document.getElementById('contentTitle').textContent = title;
+  
+  const frame = document.getElementById('contentFrame');
+  frame.src = `en/html/${contentsNum}.html`;
+  
+  document.getElementById('treePanel').classList.add('hidden-left');
+  panel.classList.remove('hidden-right');
+  previousView = 'search';
+  currentView = 'content';
+  document.getElementById('bottomTabs').style.display = 'none';
+  
+  frame.onload = function() {
+    try {
+      const doc = frame.contentDocument || frame.contentWindow.document;
+      if (frame.contentWindow) {
+        frame.contentWindow.Old = function() {};
+        frame.contentWindow.parent = {
+          Old: function() {},
+          Cts: function(key) { openContent(key, key); },
+          Tsl: function() {},
+          document: { ESM: {} }
+        };
+      }
+      const style = doc.createElement('style');
+      style.textContent = `
+        body { font-size: 14px !important; margin: 8px !important; font-family: -apple-system, sans-serif !important; word-wrap: break-word !important; }
+        img { max-width: 100% !important; height: auto !important; }
+        table { max-width: 100% !important; font-size: 12px !important; }
+        svg { max-width: 100% !important; height: auto !important; }
+        .top_title { font-size: 18px !important; font-weight: 700 !important; }
+      `;
+      doc.head.appendChild(style);
+    } catch(e) {}
+  };
+}
+
+// Override back from content when coming from search
+const origBack = backFromContent;
+backFromContent = function() {
+  document.getElementById('contentPanel').classList.add('hidden-right');
+  document.getElementById('bottomTabs').style.display = 'flex';
+  
+  if (previousView === 'search' || previousView === 'tree') {
+    document.getElementById('treePanel').classList.remove('hidden-left', 'hidden-right');
+    document.getElementById('articlesPanel').classList.add('hidden-right');
+    currentView = 'tree';
+  } else {
+    document.getElementById('articlesPanel').classList.remove('hidden-left', 'hidden-right');
+    currentView = 'articles';
+  }
+};
+</script>
+</body>
+</html>
