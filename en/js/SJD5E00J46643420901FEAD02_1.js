@@ -1,0 +1,34 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:475px; height:192px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:475px;position:relative;height:192px;\">");
+write("<img id=\"img1\" src=\"../img/SJD5E00J46643420901FEAD02.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:475px;height:192px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:85px;top:94px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>LOCK<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:73px;top:129px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>UNLOCK<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:78px;top:23px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>Terminal<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:55px;top:58px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>Position<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:38px;top:158px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>[  ]: KG<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:243px;top:36px;font-weight:normal;font-size:9.6pt;\">");
+write("<nobr><b>1<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:226px;top:53px;font-weight:normal;font-size:9.6pt;\">");
+write("<nobr><b>[3]<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:383px;top:37px;font-weight:normal;font-size:9.6pt;\">");
+write("<nobr><b>2<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" class=\"drag\" style=\"position:absolute;left:367px;top:54px;font-weight:normal;font-size:9.6pt;\">");
+write("<nobr><b>[4]<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

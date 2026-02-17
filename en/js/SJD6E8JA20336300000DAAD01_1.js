@@ -1,0 +1,31 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:950px; height:911px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:950px;position:relative;height:911px;\">");
+write("<img id=\"img1\" src=\"../img/SJD6E8JA20336300000DAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:911px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:536px;top:28px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>TURBOCHARGER BOOST CONTROL<br>SOLENOID VALVE <br><a href=\"javascript:parent.Cts('000000000002540','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:624px;top:92px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>AIR CLEANER<br><a href=\"javascript:parent.Cts('000000000002537','i000')\"></b>Removal/Installation,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:624px;top:122px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>AIR CLEANER ELEMENT<br><a href=\"javascript:parent.Cts('000000000002538','i000')\"></b>Inspection/Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:507px;top:733px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>INTAKE MANIFOLD<br>RUNNER CONTROL <br>(IMRC) POSITION SENSOR <br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:597px;top:664px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>AIR INTAKE DUCT<br><a href=\"javascript:parent.Cts('000000000002539','i000')\"></b>Removal/Installation,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:187px;top:764px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>INTAKE MANIFOLD RUNNER CONTROL <br>(IMRC) VALVE<br><a href=\"javascript:parent.Cts('000000000002281','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:14px;top:665px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>INTAKE MANIFOLD RUNNER CONTROL <br>(IMRC) SOLENOID VALVE<br><a href=\"javascript:parent.Cts('000000000002280','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:0px;top:878px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b></b>*: This illustration shows LHD model.<br></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

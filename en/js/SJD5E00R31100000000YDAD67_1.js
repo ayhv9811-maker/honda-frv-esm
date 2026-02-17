@@ -1,0 +1,31 @@
+with(document) {
+write("<div id=\"group3\" class=\"drag\" style=\"position:relative; width:475px; height:529px;\">");
+write("<div id=\"rect3\"class=\"drag\" style=\"width:475px;position:relative;height:529px;\">");
+write("<img id=\"img3\" src=\"../img/SJD5E00R31100000000YDAD67.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:475px;height:529px;border-color:#ffffff\">");
+write("<p id=\"p3_1\" class=\"drag\" style=\"position:absolute;left:216px;top:500px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>A<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_2\" class=\"drag\" style=\"position:absolute;left:282px;top:473px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>B<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_3\" class=\"drag\" style=\"position:absolute;left:70px;top:291px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>C<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_4\" class=\"drag\" style=\"position:absolute;left:301px;top:401px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>D<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_5\" class=\"drag\" style=\"position:absolute;left:249px;top:153px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>F<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_6\" class=\"drag\" style=\"position:absolute;left:183px;top:13px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>F<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_7\" class=\"drag\" style=\"position:absolute;left:424px;top:14px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>F<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_8\" class=\"drag\" style=\"position:absolute;left:81px;top:402px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>E<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

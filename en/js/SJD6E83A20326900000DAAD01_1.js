@@ -1,0 +1,34 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:950px; height:927px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:950px;position:relative;height:927px;\">");
+write("<img id=\"img1\" src=\"../img/SJD6E83A20326900000DAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:927px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:21px;top:177px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>ELECTRICAL LOAD<br>DETECTOR (ELD)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:6px;top:744px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FUEL INJECTOR<br><a href=\"javascript:parent.Cts('000000000000992','i000')\"></b>Replacement,<br></a><br> in the Shop Manual,<br> P/N 62SJD00<br></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:324px;top:133px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>THROTTLE POSITION (TP)<br>SENSOR<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:632px;top:92px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>MANIFOLD ABSOLUTE<br>PRESSURE (MAP) SENSOR<br><a href=\"javascript:parent.Cts('000000000000995','i000')\"></b>Replacement,</a><br> in the Shop Manual, P/N 62SJD00<br></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:693px;top:168px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>CAMSHAFT POSITION<br>(CMP) SENSOR<br><a href=\"javascript:parent.Cts('000000000000986','i000')\"></b>Replacement,</a><br> in the Shop Manual, P/N 62SJD00<br></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:596px;top:17px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>INTAKE AIR TEMPERATURE<br>(IAT) SENSOR<br><a href=\"javascript:parent.Cts('000000000000993','i000')\"></b>Replacement,</a><br> in the Shop Manual, P/N 62SJD00<br></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:103px;top:844px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>ENGINE COOLANT TEMPERATURE<br>(ECT) SENSOR<br><a href=\"javascript:parent.Cts('000000000000989','i000')\"></b>Replacement,</a><br> in the Shop Manual, P/N 62SJD00<br></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:567px;top:861px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>KNOCK SENSOR<br><a href=\"javascript:parent.Cts('000000000000994','i000')\"></b>Replacement,</a><br> in the Shop Manual, P/N 62SJD00<br></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" class=\"drag\" style=\"position:absolute;left:645px;top:784px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>CRANKSHAFT POSITION (CKP)<br>SENSOR<br><a href=\"javascript:parent.Cts('000000000000987','i000')\"></b>Replacement,</a><br> in the Shop Manual, P/N 62SJD00<br></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

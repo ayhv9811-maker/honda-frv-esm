@@ -1,0 +1,37 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:475px; height:320px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:475px;position:relative;height:320px;\">");
+write("<img id=\"img1\" src=\"../img/SJD5E00K70100081110FAAD03.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:475px;height:320px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:87px;top:16px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>ABS CONTROL UNIT 26P CONNECTOR<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:125px;top:290px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b></b>Wire side of female terminals<br></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:112px;top:81px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>FR-GND (GRY)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:151px;top:58px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>FR +B (GRN)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:143px;top:37px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>RR +B (LT BLU)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:292px;top:58px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>RL +B (WHT)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:307px;top:80px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>FL-GND (GRY)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:304px;top:183px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>FL +B (BLU)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" class=\"drag\" style=\"position:absolute;left:303px;top:214px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>RL-GND<br>(RED)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_10\" class=\"drag\" style=\"position:absolute;left:123px;top:189px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>RR-GND (ORN)<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

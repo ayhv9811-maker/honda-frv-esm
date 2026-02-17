@@ -1,0 +1,34 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:475px; height:802px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:475px;position:relative;height:802px;\">");
+write("<img id=\"img1\" src=\"../img/SJD7EB0E10411600000DAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:475px;height:802px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:238px;top:20px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>THRUST SHIM, 76 mm<br><a href=\"javascript:parent.Cts('000000000002919','i000')\"></b>Preload Inspection, <br></a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:238px;top:78px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>SPACER, 76.2 mm<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:238px;top:119px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>BEARING OUTER RACE<br><a href=\"javascript:parent.Cts('000000000002918','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:238px;top:186px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>CARRIER BEARING <br><a href=\"javascript:parent.Cts('000000000002920','i000')\"></b>Replacement,<br></a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:292px;top:360px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>FINAL DRIVEN GEAR<br><a href=\"javascript:parent.Cts('000000000002921','i000')\"></b>Replacement,<br></a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:278px;top:497px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>DIFFERENTIAL CARRIER<br><a href=\"javascript:parent.Cts('000000000002917','i000')\"></b>Backlash Inspection,<br></a><br><a href=\"javascript:parent.Cts('000000000002921','i000')\">Replacement,<br></a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:238px;top:614px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>CARRIER BEARING<br><a href=\"javascript:parent.Cts('000000000002920','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:238px;top:686px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>BEARING OUTER RACE<br><a href=\"javascript:parent.Cts('000000000002918','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" class=\"drag\" style=\"position:absolute;left:238px;top:759px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>THRUST WASHER, 80 mm<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

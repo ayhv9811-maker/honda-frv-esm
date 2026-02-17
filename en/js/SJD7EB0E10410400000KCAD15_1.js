@@ -1,0 +1,34 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:475px; height:417px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:475px;position:relative;height:417px;\">");
+write("<img id=\"img1\" src=\"../img/SJD7EB0E10410400000KCAD15.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:475px;height:417px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:69px;top:321px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>C<br>12 x 1.25 mm<br>59−69 N·m <br>(6.0−7.0 kgf·m, 43−51 lbf·ft)<br></b>Replace.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:353px;top:298px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>E<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:425px;top:334px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>D<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:17px;top:203px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>A<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:30px;top:276px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>B<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:443px;top:202px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>H<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:425px;top:252px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>I<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:364px;top:121px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>F<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" class=\"drag\" style=\"position:absolute;left:236px;top:29px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>G<br>10 x 1.25 mm<br>39 N·m (4.0 kgf·m, 29 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

@@ -1,0 +1,34 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:950px; height:927px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:950px;position:relative;height:927px;\">");
+write("<img id=\"img1\" src=\"../img/SJD5E00R31100000000YDAD16.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:927px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:178px;top:16px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FRONT SIDE FRAME<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:774px;top:214px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FRONT WHEELHOUSE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:668px;top:243px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SIDE FRAME REAR BULKHEAD<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:333px;top:374px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SIDE FRAME<br>EXTENSION<br>REAR<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:236px;top:321px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SUBFRAME REAR<br>BRACKET<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:530px;top:453px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FRONT SIDE FRAME<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:389px;top:811px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FRONT SIDE FRAME<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:197px;top:546px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SIDE FRAME REAR<br>BULKHEAD<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" class=\"drag\" style=\"position:absolute;left:324px;top:867px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SIDE FRAME<br>EXTENSION<br>REAR<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

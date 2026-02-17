@@ -1,0 +1,37 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:475px; height:449px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:475px;position:relative;height:449px;\">");
+write("<img id=\"img1\" src=\"../img/SJD6E9JE34116317041MBAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:475px;height:449px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:381px;top:134px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>A<br>9.4 N·m <br>(1.0 kgf·m, <br>7.2 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:356px;top:86px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>B<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:387px;top:270px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>C<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:86px;top:130px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>E<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:294px;top:365px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>F<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:283px;top:248px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>G<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:316px;top:257px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>H<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:254px;top:355px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>I<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" class=\"drag\" style=\"position:absolute;left:322px;top:31px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>K<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_10\" class=\"drag\" style=\"position:absolute;left:64px;top:210px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>D<br>17 N·m <br>(1.7 kgf·m, <br>13 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

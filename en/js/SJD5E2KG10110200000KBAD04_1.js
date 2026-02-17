@@ -1,0 +1,13 @@
+with(document) {
+write("<div id=\"group4\" class=\"drag\" style=\"position:relative; width:475px; height:336px;\">");
+write("<div id=\"rect4\"class=\"drag\" style=\"width:475px;position:relative;height:336px;\">");
+write("<img id=\"img4\" src=\"../img/SJD5E2KG10110200000KBAD04.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:475px;height:336px;border-color:#ffffff\">");
+write("<p id=\"p4_1\" class=\"drag\" style=\"position:absolute;left:298px;top:227px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>B<br></b></nobr>");
+write("</p>");
+write("<p id=\"p4_2\" class=\"drag\" style=\"position:absolute;left:238px;top:271px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>6 x 1.0 mm<br>9.8 N·m <br>(1.0 kgf·m, 7.2 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

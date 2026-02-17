@@ -1,0 +1,34 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:950px; height:1103px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:950px;position:relative;height:1103px;\">");
+write("<img id=\"img1\" src=\"../img/SJD5E2AJ34300044051DAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:1103px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:540px;top:77px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>REAR WINDOW DEFOGGER/<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:539px;top:93px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>POWER MIRROR DEFOGGER SWITCH<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:174px;top:615px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>POWER MIRRORS<br><a href=\"javascript:parent.Cts('000000000000339','i000')\"></b>Actuator Test,</a><br><a href=\"javascript:parent.Cts('000000000000340','i000')\">Actuator Replacement,<br></a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:779px;top:310px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>UNDER-HOOD<br>FUSE/RELAY BOX<br>(K20A9 engine)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:746px;top:252px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>UNDER-HOOD<br>FUSE/RELAY BOX<br>(D17A2 engine)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:42px;top:541px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>POWER MIRROR SWITCH<br><a href=\"javascript:parent.Cts('000000000001534','i000')\"></b>Test,</a><br><a href=\"javascript:parent.Cts('000000000001534','i000')\">Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:244px;top:985px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>POWER MIRROR DEFOGGER RELAY<br><a href=\"javascript:parent.Cts('000000000001529','i000')\"></b>Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:0px;top:1069px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b></b>RHD type is shown, LHD type is similar.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" class=\"drag\" style=\"position:absolute;left:620px;top:1015px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>POWER MIRROR DEFOGGER RELAY<br><a href=\"javascript:parent.Cts('000000000001529','i000')\"></b>Test,</a><br></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

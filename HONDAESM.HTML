@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>FR-V Shop Manual (HONDA MOTOR Co.,Ltd.)</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { height: 100%; overflow: hidden; }
+  #header { height: 71px; border-bottom: 1px solid #ccc; }
+  #header iframe { width: 100%; height: 100%; border: none; }
+  #container { display: flex; height: calc(100% - 72px); }
+  #nav { width: 370px; border-right: 1px solid #ccc; overflow: auto; }
+  #nav iframe { width: 100%; height: 100%; border: none; }
+  #content { flex: 1; overflow: auto; }
+  #content iframe { width: 100%; height: 100%; border: none; }
+</style>
+<script src="./_COM/HONDAESM.JS"></script>
+<script src="./_COM/MESSAGE.JS"></script>
+<script src="./_COM/LANGINFO.JS"></script>
+<script>
+var gESM, gLng, gMSG, gModelInfo, fn;
+
+gESM  = new Array;
+gLng  = new Array;
+gMSG  = new Array;
+gModelInfo = new Array;
+fn    = new Array;
+
+gESM.Lng      = gLng;
+gESM.lngSel   = 0;
+gESM.MsgC     = gMSG;
+gESM.ModelInfo = gModelInfo;
+gESM.mySel    = 0;
+gESM.mcSel    = 0;
+gESM.subSel   = 1;
+gESM.subUse   = 1;
+gESM.mdlSel   = 0;
+gESM.manTyp   = 'SM';
+gESM.smFlag   = 1;
+gESM.brmFlag  = 1;
+document.ESM  = gESM;
+SetLang();
+
+gESM.Key = "";
+gESM.Sct = "";
+gESM.Sc  = "";
+gESM.Sys = "";
+gESM.Comp = "";
+gESM.Sitq = "";
+gESM.Keyword = "";
+
+fn.GetCookie  = GetCookie;
+fn.SetCookie  = SetCookie;
+fn.ChangeLang = ChangeLang;
+gESM.fn = fn;
+
+function SetCookieWrapper(name, val) {
+  try { SetCookie(name, val); } catch(e) {}
+}
+
+function Old(obj) {
+  if(obj == null) return;
+  try { if(obj.Fsl) obj.Fsl(gESM.Key,gESM.Sct,gESM.Sc,gESM.Sys,gESM.Comp,gESM.Sitq,gESM.Keyword); } catch(e) {}
+  try { if(obj.Chh) obj.Chh(obj.document.body.clientHeight); } catch(e) {}
+}
+
+function Tsl(key,sct,sc,sys,comp,sitq) {
+  gESM.Key = key; gESM.Sct = sct; gESM.Sc = sc;
+  gESM.Sys = sys; gESM.Comp = comp; gESM.Sitq = sitq;
+}
+
+function Cts(key,anc) {
+  if(!anc) anc = "";
+  else anc = "#" + anc;
+  var url = key + ".html" + anc;
+  jsShopPopUpHistWindow(url,key,anc);
+}
+
+function Jmp(anc) {}
+function Prt(key) {}
+function Scl(sys,comp) {}
+
+var win = null;
+function jsShopPopUpHistWindow(url,key,anc) {
+  var w = 1024, h = 668;
+  var t = (screen.availHeight - h)/2;
+  var l = (screen.availWidth - w)/2;
+  var newUrl = window.location.href.substring(0,window.location.href.lastIndexOf("/")) + "/en/html/ESMManualMain.html?url="+escape(url)+"&key="+key+"&anc="+anc;
+  if(win == null || win.closed) {
+    win = window.open(newUrl,"ESM","toolbar=yes,menubar=yes,status=yes,scrollbars=no,resizable=yes,top="+t+",left="+l+",width="+w+",height="+h);
+  } else {
+    win.location.href = newUrl;
+  }
+  if(win) { win.focus(); }
+}
+
+function OnResizeProc() {
+  try {
+    var f12w = document.getElementById("F12").contentWindow;
+    if(f12w && f12w.Chh) f12w.Chh(f12w.document.body.clientHeight);
+  } catch(e) {}
+}
+</script>
+</head>
+<body>
+  <div id="header">
+    <iframe id="F10" name="F10" src="./en/html/ESMTITLE.HTML" scrolling="no"></iframe>
+  </div>
+  <div id="container">
+    <div id="nav">
+      <iframe id="F11" name="F11" src="./en/html/ESMSELCT.HTML"></iframe>
+    </div>
+    <div id="content">
+      <iframe id="F12" name="F12" src="./en/html/ESMBLANK.HTML" onresize="OnResizeProc();"></iframe>
+    </div>
+  </div>
+<div style="position:fixed;bottom:0;right:0;font-size:10px;color:#999;">v7</div>
+</body>
+</html>

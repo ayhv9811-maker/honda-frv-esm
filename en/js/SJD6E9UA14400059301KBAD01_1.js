@@ -1,0 +1,31 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:950px; height:719px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:950px;position:relative;height:719px;\">");
+write("<img id=\"img1\" src=\"../img/SJD6E9UA14400059301KBAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:719px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:384px;top:15px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>RUBBER SEAL<br></b>Replace.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:354px;top:119px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>PIN<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:221px;top:155px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>THERMOSTAT<br></b>Install with pin up.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:107px;top:282px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>THERMOSTAT<br>COVER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:32px;top:494px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>6 x 1.0 mm<br>12 N·m <br>(1.2 kgf·m, 8.7 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:105px;top:612px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>HARNESS<br>CLAMP<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:501px;top:626px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>RADIATOR FAN SWITCH <br>(HIGH) CONNECTOR<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:784px;top:428px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>LOWER RADIATOR<br>HOSE<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

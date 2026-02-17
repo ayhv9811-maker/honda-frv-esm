@@ -1,0 +1,31 @@
+with(document) {
+write("<div id=\"group6\" class=\"drag\" style=\"position:relative; width:950px; height:511px;\">");
+write("<div id=\"rect6\"class=\"drag\" style=\"width:950px;position:relative;height:511px;\">");
+write("<img id=\"img6\" src=\"../img/SJD6E8KA20300000000DBAD06.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:511px;border-color:#ffffff\">");
+write("<p id=\"p6_1\" class=\"drag\" style=\"position:absolute;left:215px;top:82px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>1<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_2\" class=\"drag\" style=\"position:absolute;left:441px;top:472px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>2<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_3\" class=\"drag\" style=\"position:absolute;left:410px;top:472px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>3<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_4\" class=\"drag\" style=\"position:absolute;left:190px;top:424px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>4<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_5\" class=\"drag\" style=\"position:absolute;left:160px;top:375px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>5<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_6\" class=\"drag\" style=\"position:absolute;left:230px;top:463px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>MAIN<br>WIRE HARNESS<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_7\" class=\"drag\" style=\"position:absolute;left:696px;top:400px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>DASHBOARD<br>WIRE HARNESS A<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_8\" class=\"drag\" style=\"position:absolute;left:114px;top:146px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>LEFT ENGINE<br>COMPARTMENT<br>WIRE HARNESS<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

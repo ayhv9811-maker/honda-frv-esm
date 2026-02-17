@@ -1,0 +1,31 @@
+with(document) {
+write("<div id=\"group2\" class=\"drag\" style=\"position:relative; width:475px; height:465px;\">");
+write("<div id=\"rect2\"class=\"drag\" style=\"width:475px;position:relative;height:465px;\">");
+write("<img id=\"img2\" src=\"../img/SJD7EC0A18223800000KCAD05.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:475px;height:465px;border-color:#ffffff\">");
+write("<p id=\"p2_1\" class=\"drag\" style=\"position:absolute;left:441px;top:200px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>B<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_2\" class=\"drag\" style=\"position:absolute;left:411px;top:420px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>A<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_3\" class=\"drag\" style=\"position:absolute;left:169px;top:81px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>D<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_4\" class=\"drag\" style=\"position:absolute;left:17px;top:23px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>6 x 1.0 mm<br>9.8 N·m (1.0 kgf·m, 7.2 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_5\" class=\"drag\" style=\"position:absolute;left:280px;top:24px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>B<br>12 x 1.25 mm<br>64 N·m <br>(6.5 kgf·m, 47 lbf·ft)<br></b>Replace.<br></nobr>");
+write("</p>");
+write("<p id=\"p2_6\" class=\"drag\" style=\"position:absolute;left:12px;top:197px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>D<br>12 x 1.25 mm<br>74 N·m <br>(7.5 kgf·m, 54 lbf·ft)<br></b>Replace.<br></nobr>");
+write("</p>");
+write("<p id=\"p2_7\" class=\"drag\" style=\"position:absolute;left:372px;top:98px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>C<br>10 x 1.25 mm<br>38 N·m <br>(3.9 kgf·m, <br>28 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_8\" class=\"drag\" style=\"position:absolute;left:27px;top:154px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>A<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

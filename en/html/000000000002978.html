@@ -1,0 +1,255 @@
+<html lang="en">
+<head>
+<meta name="author" content="HONDA ACCESS Co.,Ltd.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<title>SJD7EB0K77100090780FAAT00</title>
+<link href="../css/ViewerStyle.css" rel="stylesheet">
+<style>
+	.drag	{ position: relative; cursor:pointer; }
+</style>
+</head>
+<script>
+<!--
+-->
+</script>
+<body onload="javascript:parent.Old(this)" style="font-family:sans-serif;">
+<div>
+<div class="top_title">
+DTC Troubleshooting: P0780 (45-1)
+</div>
+<hr width="100%" size="2" color="gray">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<b>
+DTC P0780:
+</b>
+<div>
+ Shift Control System
+</div>
+<div>
+NOTE: Before you troubleshoot, record all freeze data and any on-board snapshot, and 
+<a href="javascript:parent.Cts('000000000002951','i000')">
+review General Troubleshooting Information.
+</a>
+</div>
+<a name="i010">
+</a>
+<ol>
+<li value="1">
+<div>
+Check for other DTCs indicated simultaneous with DTC P0780.
+</div>
+<div>
+NOTE: DTC P0780 means there is one or more A/T DTCs about the shift control system.
+</div>
+</li>
+</ol>
+<div style="text-indent:40px;">
+<i>
+Are there other DTCs?
+</i>
+</div>
+<table class="Viewer" frame="void" style="margin-left:50px;">
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+YES
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Troubleshoot indicated DTC(s):
+</div>
+<ul type="disc">
+<li>
+<div>
+<a href="javascript:parent.Cts('000000000003003','i000')">
+P1730
+</a>
+</div>
+</li>
+<li>
+<div>
+<a href="javascript:parent.Cts('000000000003004','i000')">
+P1731
+</a>
+</div>
+</li>
+<li>
+<div>
+<a href="javascript:parent.Cts('000000000003005','i000')">
+P1732
+</a>
+</div>
+</li>
+<li>
+<div>
+<a href="javascript:parent.Cts('000000000003006','i000')">
+P1733
+</a>
+</div>
+</li>
+<li>
+<div>
+<a href="javascript:parent.Cts('000000000003007','i000')">
+P1734
+</a>
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+NO
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Go to 
+<a href="javascript:parent.Jmp('i020')">Step 2
+</a>
+.
+</div>
+</td>
+</tr>
+</table>
+<a name="i020">
+</a>
+<ol>
+<li value="2">
+<div>
+<a href="javascript:parent.Cts('000000000002951','iG08')">
+Update the PCM if it does not have the latest software,
+</a>
+ or 
+<a href="javascript:parent.Cts('000000000002951','iG09')">
+substitute a known-good PCM.
+</a>
+</div>
+</li>
+</ol>
+<a name="i030">
+</a>
+<ol>
+<li value="3">
+<div>
+Check for DTC(s) in the DTCs/Freeze Data in A/T Mode Menu with the HDS.
+</div>
+</li>
+</ol>
+<div style="text-indent:40px;">
+<i>
+Is DTC P0780 indicated?
+</i>
+</div>
+<table class="Viewer" frame="void" style="margin-left:50px;">
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+YES
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+<a href="javascript:parent.Cts('000000000002951','iG09')">
+If the PCM was updated, substitute a known-good PCM,
+</a>
+ then recheck. If the PCM was substituted, go to 
+<a href="javascript:parent.Jmp('i010')">Step 1
+</a>
+.
+</div>
+</td>
+</tr>
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+NO
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Go to 
+<a href="javascript:parent.Jmp('i040')">Step 4
+</a>
+.
+</div>
+</td>
+</tr>
+</table>
+<a name="i040">
+</a>
+<ol>
+<li value="4">
+<div>
+Monitor the OBD STATUS for P0780 in the DTCs/Freeze Data in A/T Mode Menu for a pass/fail.
+</div>
+</li>
+</ol>
+<div style="text-indent:40px;">
+<i>
+Does the HDS indicate PASSED?
+</i>
+</div>
+<table class="Viewer" frame="void" style="margin-left:50px;">
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+YES
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+If the PCM was updated, troubleshooting is complete. If the PCM was substituted, 
+<a href="javascript:parent.Cts('000000000002676','i000')">
+replace the original PCM.
+</a>
+ If any other DTCs were indicated on 
+<a href="javascript:parent.Jmp('i030')">Step 3
+</a>
+, go to the indicated DTC's troubleshooting.■
+</div>
+</td>
+</tr>
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+NO
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+If the HDS indicates FAILED, check for poor connections and loose terminals at shift solenoid valves, A/T clutch pressure control solenoid valves, and the PCM. If the PCM was updated, 
+<a href="javascript:parent.Cts('000000000002951','iG09')">
+substitute a known-good PCM,
+</a>
+ then recheck. If the PCM was substituted, go to step 1. If the HDS indicates NOT COMPLETED, keep idling until a result comes on.
+</div>
+</td>
+</tr>
+</table>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

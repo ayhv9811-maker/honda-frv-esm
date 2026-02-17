@@ -1,0 +1,37 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:950px; height:527px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:950px;position:relative;height:527px;\">");
+write("<img id=\"img1\" src=\"../img/SJD7EC0J54400000000DAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:527px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:320px;top:16px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>WINDSHIELD MOLDING<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:359px;top:44px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>MOLDING UPPER SEAL<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:575px;top:16px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>RUBBER DAM A Thickness 7.0 mm (0.28 in.)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:453px;top:423px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>RUBBER DAM B Thickness 4.0 mm (0.16 in.)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:674px;top:56px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>CLIP, 2<br>(Self-adhesive-type, <br>glass side)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:770px;top:191px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>CORNER RUBBER<br>DAM, 2<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:709px;top:272px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>PASSENGER'S AIRBAG<br>CAUTION LABEL<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:631px;top:393px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>LOWER RUBBER DAM<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" class=\"drag\" style=\"position:absolute;left:277px;top:452px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>RAIN SENSOR COVER BASE<br>(For some models)<br><a href=\"javascript:parent.Cts('000000000000442','i000')\"></b>Replacement,</a><br> in the Shop Manual, P/N 62SJD00<br></nobr>");
+write("</p>");
+write("<p id=\"p1_10\" class=\"drag\" style=\"position:absolute;left:7px;top:434px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>WINDSHIELD<br><a href=\"javascript:parent.Cts('000000000003653','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

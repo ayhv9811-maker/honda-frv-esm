@@ -1,0 +1,31 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:475px; height:770px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:475px;position:relative;height:770px;\">");
+write("<img id=\"img1\" src=\"../img/SJD5E300000000K0031BAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:475px;height:770px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:81px;top:114px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>SRS WARNING<br>INFORMATION<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:304px;top:115px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>FRONT PASSENGER<br>MODULE DANGER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:350px;top:674px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>SIDE MODULE <br>DANGER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:276px;top:717px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>FRONT SEAT BELT<br>TENSIONER CAUTION<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:110px;top:676px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>MONITOR <br>NOTICE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:7px;top:647px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>STEERING<br>COLUMN<br>NOTICE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:0px;top:16px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b></b>NOTE: The illustration shows the LHD model, RHD model is <br>symmetrical.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:179px;top:68px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>PASSENGER AIRBAG<br>CHILD SEAT CAUTION<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

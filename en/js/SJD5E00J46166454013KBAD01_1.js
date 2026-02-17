@@ -1,0 +1,34 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:950px; height:671px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:950px;position:relative;height:671px;\">");
+write("<img id=\"img1\" src=\"../img/SJD5E00J46166454013KBAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:671px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:163px;top:315px;font-weight:normal;font-size:9.1pt;\">");
+write("<nobr><b>A<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:664px;top:611px;font-weight:normal;font-size:9.1pt;\">");
+write("<nobr><b>B<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:151px;top:24px;font-weight:normal;font-size:9.1pt;\">");
+write("<nobr><b>C<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:326px;top:273px;font-weight:normal;font-size:9.1pt;\">");
+write("<nobr><b>D<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:107px;top:408px;font-weight:normal;font-size:9.1pt;\">");
+write("<nobr><b>E<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:461px;top:244px;font-weight:normal;font-size:9.1pt;\">");
+write("<nobr><b>F<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:333px;top:400px;font-weight:normal;font-size:9.1pt;\">");
+write("<nobr><b>A<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:77px;top:564px;font-weight:normal;font-size:9.1pt;\">");
+write("<nobr><b>B<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" class=\"drag\" style=\"position:absolute;left:866px;top:199px;font-weight:normal;font-size:9.1pt;\">");
+write("<nobr><b>A<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

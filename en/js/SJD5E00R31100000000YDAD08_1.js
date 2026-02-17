@@ -1,0 +1,31 @@
+with(document) {
+write("<div id=\"group2\" class=\"drag\" style=\"position:relative; width:950px; height:991px;\">");
+write("<div id=\"rect2\"class=\"drag\" style=\"width:950px;position:relative;height:991px;\">");
+write("<img id=\"img2\" src=\"../img/SJD5E00R31100000000YDAD08.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:991px;border-color:#ffffff\">");
+write("<p id=\"p2_1\" class=\"drag\" style=\"position:absolute;left:592px;top:15px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>DASHBOARD UPPER SIDE MEMBER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_2\" class=\"drag\" style=\"position:absolute;left:799px;top:371px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>DAMPER HOUSING<br>EXTENSION<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_3\" class=\"drag\" style=\"position:absolute;left:397px;top:295px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>MOUNTING BOLT<br>6 x 1.0 mm<br>9.8 N·m  <br>(1.0 kgf·m, 7.2 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_4\" class=\"drag\" style=\"position:absolute;left:744px;top:766px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>DAMPER HOUSING<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_5\" class=\"drag\" style=\"position:absolute;left:433px;top:962px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FRONT SIDE FRAME<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_6\" class=\"drag\" style=\"position:absolute;left:252px;top:672px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>DASHBOARD UPPER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_7\" class=\"drag\" style=\"position:absolute;left:317px;top:184px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>DAMPER HOUSING<br>EXTENSION<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_8\" class=\"drag\" style=\"position:absolute;left:78px;top:560px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>DASHBOARD LOWER<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

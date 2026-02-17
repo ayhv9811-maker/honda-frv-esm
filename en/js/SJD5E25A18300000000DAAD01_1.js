@@ -1,0 +1,34 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:950px; height:1055px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:950px;position:relative;height:1055px;\">");
+write("<img id=\"img1\" src=\"../img/SJD5E25A18300000000DAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:1055px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:17px;top:624px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>MAIN BEARINGS<br><a href=\"javascript:parent.Cts('000000000001175','iR01')\"></b>Oil Clearance,</a><br><a href=\"javascript:parent.Cts('000000000001175','iR02')\">Selection,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:13px;top:801px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>CRANKSHAFT<br><a href=\"javascript:parent.Cts('000000000001169','i000')\"></b>End Play,</a><br><a href=\"javascript:parent.Cts('000000000001174','i000')\">Runout,</a><br><a href=\"javascript:parent.Cts('000000000001174','i000')\">Out-of-Round,</a><br><a href=\"javascript:parent.Cts('000000000001172','i000')\">Removal,</a><br><a href=\"javascript:parent.Cts('000000000001173','i000')\">Installation,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:654px;top:669px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>CRANKSHAFT OIL SEAL,<br>TRANSMISSION END<br><a href=\"javascript:parent.Cts('000000000001173','i210')\"></b>Installation,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:197px;top:62px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>BAFFLE PLATE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:814px;top:618px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FLYWHEEL<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:75px;top:549px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>DOWEL PINS<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:673px;top:817px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>THRUST WASHERS<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:583px;top:36px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>BAFFLE PLATE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" class=\"drag\" style=\"position:absolute;left:696px;top:191px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>LOWER BLOCK<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

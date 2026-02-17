@@ -1,0 +1,37 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:950px; height:591px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:950px;position:relative;height:591px;\">");
+write("<img id=\"img1\" src=\"../img/SJD5E2KG10500000000DAAD03.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:591px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:555px;top:17px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>A/C CONDENSER FAN RELAY<br><a href=\"javascript:parent.Cts('000000000001529','i000')\"></b>Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:572px;top:60px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>BLOWER MOTOR RELAY<br><a href=\"javascript:parent.Cts('000000000001529','i000')\"></b>Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:590px;top:102px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>A/C COMPRESSOR CLUTCH RELAY<br><a href=\"javascript:parent.Cts('000000000001529','i000')\"></b>Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:607px;top:145px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>RADIATOR FAN RELAY<br><a href=\"javascript:parent.Cts('000000000001529','i000')\"></b>Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:629px;top:191px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>UNDER-HOOD<br>FUSE/RELAY BOX<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:649px;top:234px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>A/C PRESSURE SWITCH<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:118px;top:453px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>RADIATOR FAN<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:298px;top:470px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>A/C CONDENSER FAN<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" class=\"drag\" style=\"position:absolute;left:184px;top:499px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>OUTSIDE AIR TEMPERATURE SENSOR<br><a href=\"javascript:parent.Cts('000000000000103','i000')\"></b>Test,</a><br><a href=\"javascript:parent.Cts('000000000000104','i000')\">Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_10\" class=\"drag\" style=\"position:absolute;left:0px;top:559px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b></b>RHD type is shown, LHD type is similar.<br></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

@@ -1,0 +1,34 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:475px; height:770px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:475px;position:relative;height:770px;\">");
+write("<img id=\"img1\" src=\"../img/SJD6E8A0000000K0031BAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:475px;height:770px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:20px;top:125px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>FRONT PASSENGER<br>MODULE DANGER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:353px;top:612px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>SIDE MODULE <br>DANGER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:274px;top:682px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>FRONT SEAT BELT<br>TENSIONER CAUTION<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:74px;top:651px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>MONITOR <br>NOTICE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:19px;top:588px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>STEERING<br>COLUMN<br>NOTICE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:0px;top:16px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b></b>NOTE: The illustration shows the LHD type, RHD type is <br>symmetrical.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:92px;top:75px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>PASSENGER AIRBAG<br>CHILD SEAT CAUTION<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:363px;top:141px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>SRS CAUTION<br>LABEL<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" class=\"drag\" style=\"position:absolute;left:132px;top:708px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>FRONT SEAT <br>BELT OUTER<br>TENSIONER CAUTION<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

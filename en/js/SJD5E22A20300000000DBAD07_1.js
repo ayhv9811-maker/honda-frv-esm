@@ -1,0 +1,37 @@
+with(document) {
+write("<div id=\"group7\" class=\"drag\" style=\"position:relative; width:950px; height:511px;\">");
+write("<div id=\"rect7\"class=\"drag\" style=\"width:950px;position:relative;height:511px;\">");
+write("<img id=\"img7\" src=\"../img/SJD5E22A20300000000DBAD07.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:511px;border-color:#ffffff\">");
+write("<p id=\"p7_1\" class=\"drag\" style=\"position:absolute;left:124px;top:276px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>21<br></b></nobr>");
+write("</p>");
+write("<p id=\"p7_2\" class=\"drag\" style=\"position:absolute;left:350px;top:15px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>22<br></b></nobr>");
+write("</p>");
+write("<p id=\"p7_3\" class=\"drag\" style=\"position:absolute;left:420px;top:15px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>23<br></b></nobr>");
+write("</p>");
+write("<p id=\"p7_4\" class=\"drag\" style=\"position:absolute;left:600px;top:413px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>24<br></b></nobr>");
+write("</p>");
+write("<p id=\"p7_5\" class=\"drag\" style=\"position:absolute;left:457px;top:477px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>25<br></b></nobr>");
+write("</p>");
+write("<p id=\"p7_6\" class=\"drag\" style=\"position:absolute;left:418px;top:477px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>26<br></b></nobr>");
+write("</p>");
+write("<p id=\"p7_7\" class=\"drag\" style=\"position:absolute;left:382px;top:476px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>27<br></b></nobr>");
+write("</p>");
+write("<p id=\"p7_8\" class=\"drag\" style=\"position:absolute;left:115px;top:64px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>MAIN<br>WIRE HARNESS<br></b></nobr>");
+write("</p>");
+write("<p id=\"p7_9\" class=\"drag\" style=\"position:absolute;left:118px;top:385px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>ENGINE<br>WIRE HARNESS<br></b></nobr>");
+write("</p>");
+write("<p id=\"p7_10\" class=\"drag\" style=\"position:absolute;left:543px;top:460px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>DASHBOARD<br>WIRE HARNESS A<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

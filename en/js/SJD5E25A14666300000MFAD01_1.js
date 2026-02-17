@@ -1,0 +1,37 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:950px; height:879px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:950px;position:relative;height:879px;\">");
+write("<img id=\"img1\" src=\"../img/SJD5E25A14666300000MFAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:879px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:753px;top:17px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>EXHAUST ROCKER<br>SHAFT<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:763px;top:129px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>EXHAUST ROCKER ARM<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:29px;top:570px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>No. 1 CAMSHAFT<br>HOLDER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:792px;top:690px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>RUBBER<br>BAND<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:303px;top:748px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>No. 2<br>CAMSHAFT<br>HOLDER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:443px;top:748px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>No. 3<br>CAMSHAFT<br>HOLDER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:583px;top:747px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>No. 4<br>CAMSHAFT<br>HOLDER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:736px;top:741px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>INTAKE ROCKER<br>ARM ASSEMBLY<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" class=\"drag\" style=\"position:absolute;left:759px;top:589px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>No. 5 CAMSHAFT<br>HOLDER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_10\" class=\"drag\" style=\"position:absolute;left:757px;top:847px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>INTAKE ROCKER SHAFT<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

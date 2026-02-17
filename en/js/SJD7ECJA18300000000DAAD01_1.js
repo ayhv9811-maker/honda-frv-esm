@@ -1,0 +1,34 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:950px; height:1023px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:950px;position:relative;height:1023px;\">");
+write("<img id=\"img1\" src=\"../img/SJD7ECJA18300000000DAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:1023px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:581px;top:16px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>BAFFLE PLATE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:678px;top:115px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>LOWER BLOCK<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:733px;top:285px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>CRANKSHAFT OIL SEAL,<br>TRANSMISSION END<br><a href=\"javascript:parent.Cts('000000000002502','i210')\"></b>Installation,<br></a><br> in the Shop Manual, <br> P/N 62SJD21<br></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:684px;top:719px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>THRUST WASHERS<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:631px;top:824px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>CRANKSHAFT<br><a href=\"javascript:parent.Cts('000000000002498','i000')\"></b>End Play,</a> <br> in the Shop Manual, P/N 62SJD21<br><a href=\"javascript:parent.Cts('000000000002503','iT02')\">Runout,</a> <br> in the Shop Manual, P/N 62SJD21<br><a href=\"javascript:parent.Cts('000000000002503','iT01')\">Out-of-Round,</a> <br> in the Shop Manual, P/N 62SJD21<br><a href=\"javascript:parent.Cts('000000000002501','i000')\">Removal,</a> <br> in the Shop Manual, P/N 62SJD21<br><a href=\"javascript:parent.Cts('000000000002502','i000')\">Installation,</a> <br> in the Shop Manual, P/N 62SJD21<br></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:39px;top:922px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>MAIN BEARINGS<br><a href=\"javascript:parent.Cts('000000000002504','iR01')\"></b>Oil Clearance,</a>  <br> in the Shop Manual, P/N 62SJD21<br><a href=\"javascript:parent.Cts('000000000002504','iR02')\">Selection,</a> <br> in the Shop Manual, P/N 62SJD21<br></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:23px;top:688px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>CKP PULSE PLATE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:161px;top:434px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>DOWEL PINS<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" class=\"drag\" style=\"position:absolute;left:21px;top:56px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>CRANKSHAFT POSITION<br>(CKP) SENSOR<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

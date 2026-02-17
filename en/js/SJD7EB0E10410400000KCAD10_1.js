@@ -1,0 +1,34 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:475px; height:497px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:475px;position:relative;height:497px;\">");
+write("<img id=\"img1\" src=\"../img/SJD7EB0E10410400000KCAD10.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:475px;height:497px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:397px;top:96px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>A<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:56px;top:194px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>D<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:381px;top:13px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>B<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:356px;top:398px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>6 x 1.0 mm<br>12 N·m <br>(1.2 kgf·m, <br>8.7 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:361px;top:224px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>F<br>14 N·m <br>(1.4 kgf·m, <br>10 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:53px;top:303px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>6 x 1.0 mm<br>12 N·m <br>(1.2 kgf·m, <br>8.7 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:405px;top:138px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>E<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:398px;top:346px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>G<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" class=\"drag\" style=\"position:absolute;left:66px;top:163px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>C<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

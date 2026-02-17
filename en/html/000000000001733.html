@@ -1,0 +1,792 @@
+<html lang="en">
+<head>
+<meta name="author" content="HONDA ACCESS Co.,Ltd.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<title>SJD6E73K72100092645FAAT00</title>
+<link href="../css/ViewerStyle.css" rel="stylesheet">
+<style>
+	.drag	{ position: relative; cursor:pointer; }
+</style>
+</head>
+<script>
+<!--
+-->
+</script>
+<body onload="javascript:parent.Old(this)" style="font-family:sans-serif;">
+<div>
+<div class="top_title">
+DTC Troubleshooting: P2645 (21)
+</div>
+<hr width="100%" size="2" color="gray">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<b>
+DTC P2645:
+</b>
+<div>
+ VTEC System Malfunction
+</div>
+<div class="tool_list_title">
+<b>
+Special Tools Required
+</b>
+</div>
+<a href="javascript:parent.Prt('ZOOM000000000010573')">
+<br>
+Oil pressure gauge attachment
+<div>
+ 07NAJ-P070100
+</div>
+</a>
+<a href="javascript:parent.Prt('ZOOM000000000010574')">
+<br>
+Low pressure gauge
+<div>
+ 07406-0070002
+</div>
+</a>
+<a href="javascript:parent.Prt('ZOOM000000000010575')">
+<br>
+Oil pressure hose
+<div>
+ 07ZAJ-S5A0200
+</div>
+</a>
+<a name="i010">
+</a>
+<ol>
+<li value="1">
+<div>
+<a href="javascript:parent.Cts('000000000000708','iG04')">
+Reset the ECM.
+</a>
+</div>
+</li>
+</ol>
+<a name="i020">
+</a>
+<ol>
+<li value="2">
+<div>
+Check the engine oil level, and refill if necessary. Check for external damage to the oil pan.
+</div>
+</li>
+</ol>
+<a name="i030">
+</a>
+<ol>
+<li value="3">
+<div>
+Start the engine. Hold the engine speed at 3,000 rpm (min
+<sup>
+−1
+</sup>
+) without load (in neutral) until the radiator fan comes on.
+</div>
+</li>
+</ol>
+<a name="i040">
+</a>
+<ol>
+<li value="4">
+<div>
+Road test the vehicle:
+</div>
+<div>
+Accelerate in 2nd gear to an engine speed over 4,000 rpm (min
+<sup>
+−1
+</sup>
+). Hold that engine speed for at least 2 seconds. If DTC P2645 is not repeated during the first road test, repeat this test 2 more times.
+</div>
+</li>
+</ol>
+<div style="text-indent:40px;">
+<i>
+Is DTC P2645 indicated?
+</i>
+</div>
+<table class="Viewer" frame="void" style="margin-left:50px;">
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+YES
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Go to 
+<a href="javascript:parent.Jmp('i050')">Step 5
+</a>
+.
+</div>
+</td>
+</tr>
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+NO
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Intermittent failure, system is OK at this time. Check the oil consumption if oil was added in 
+<a href="javascript:parent.Jmp('i020')">Step 2
+</a>
+. Check for poor connections or loose terminals at the rocker arm oil control solenoid (VTEC solenoid valve) and the ECM.■
+</div>
+</td>
+</tr>
+</table>
+<a name="i050">
+</a>
+<ol>
+<li value="5">
+<div>
+Turn the ignition switch OFF.
+</div>
+</li>
+</ol>
+<a name="i060">
+</a>
+<ol>
+<li value="6">
+<div>
+Disconnect the rocker arm oil control solenoid (VTEC solenoid valve) 1P connector.
+</div>
+</li>
+</ol>
+<a name="i070">
+</a>
+<ol>
+<li value="7">
+<div>
+Check for resistance between the rocker arm oil control solenoid (VTEC solenoid valve) 1P connector terminal and body ground.
+</div>
+</li>
+</ol>
+<div style="text-indent:40px;">
+<i>
+Is there 14−30 Ω?
+</i>
+</div>
+<table class="Viewer" frame="void" style="margin-left:50px;">
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+YES
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Go to 
+<a href="javascript:parent.Jmp('i080')">Step 8
+</a>
+.
+</div>
+</td>
+</tr>
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+NO
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Go to 
+<a href="javascript:parent.Jmp('i200')">Step 20
+</a>
+.
+</div>
+</td>
+</tr>
+</table>
+<a name="i080">
+</a>
+<ol>
+<li value="8">
+<div>
+Disconnect ECM connector B (24P).
+</div>
+</li>
+</ol>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+<span style="display:none" id="imgId1">
+<div style="page-break-after:always;">
+</div>
+</span>
+<div>
+<a href="javascript:parent.Prt('ZOOM000000000004323','1');">
+<img src="../tn/SJD6E73K72100092645FAAD01.png">
+</a>
+</div>
+</td>
+</tr>
+</table>
+<hr width="100%" size="2" color="gray">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<a name="i090">
+</a>
+<ol>
+<li value="9">
+<div>
+Check for continuity between ECM connector terminal B15 and body ground.
+</div>
+</li>
+</ol>
+<div style="text-indent:40px;">
+<i>
+Is there continuity?
+</i>
+</div>
+<table class="Viewer" frame="void" style="margin-left:50px;">
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+YES
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Repair short in the wire between the rocker arm oil control solenoid (VTEC solenoid valve) and the ECM (B15), then go to 
+<a href="javascript:parent.Jmp('i210')">Step 21
+</a>
+.
+</div>
+</td>
+</tr>
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+NO
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Go to 
+<a href="javascript:parent.Jmp('i100')">Step 10
+</a>
+.
+</div>
+</td>
+</tr>
+</table>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+<span style="display:none" id="imgId1">
+<div style="page-break-after:always;">
+</div>
+</span>
+<div>
+<a href="javascript:parent.Prt('ZOOM000000000004324','1');">
+<img src="../tn/SJD6E73K72100092645FAAD02.png">
+</a>
+</div>
+</td>
+</tr>
+</table>
+<hr width="100%" size="2" color="gray">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<a name="i100">
+</a>
+<ol>
+<li value="10">
+<div>
+Connect the rocker arm oil control solenoid (VTEC solenoid valve) 1P connector terminal to body ground with a jumper wire.
+</div>
+</li>
+</ol>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+<span style="display:none" id="imgId1">
+<div style="page-break-after:always;">
+</div>
+</span>
+<div>
+<a href="javascript:parent.Prt('ZOOM000000000004325','1');">
+<img src="../tn/SJD6E73K72100092645FAAD03.png">
+</a>
+</div>
+</td>
+</tr>
+</table>
+<hr width="100%" size="2" color="gray">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<a name="i110">
+</a>
+<ol>
+<li value="11">
+<div>
+Check for continuity between ECM connector terminal B15 and body ground.
+</div>
+</li>
+</ol>
+<div style="text-indent:40px;">
+<i>
+Is there continuity?
+</i>
+</div>
+<table class="Viewer" frame="void" style="margin-left:50px;">
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+YES
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Go to 
+<a href="javascript:parent.Jmp('i120')">Step 12
+</a>
+.
+</div>
+</td>
+</tr>
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+NO
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Repair open in the wire between the rocker arm oil control solenoid (VTEC solenoid valve) and the ECM (B15), then go to 
+<a href="javascript:parent.Jmp('i210')">Step 21
+</a>
+.
+</div>
+</td>
+</tr>
+</table>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+<span style="display:none" id="imgId1">
+<div style="page-break-after:always;">
+</div>
+</span>
+<div>
+<a href="javascript:parent.Prt('ZOOM000000000004326','1');">
+<img src="../tn/SJD6E73K72100092645FAAD04.png">
+</a>
+</div>
+</td>
+</tr>
+</table>
+<hr width="100%" size="2" color="gray">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<a name="i120">
+</a>
+<ol>
+<li value="12">
+<div>
+Remove the rocker arm oil pressure switch (VTEC oil pressure switch) (A), and install the special tools as shown, then install the rocker arm oil pressure switch (VTEC oil pressure switch) in the pressure gauge attachment (B).
+</div>
+<div>
+NOTE: Install the switch in the reverse order of removal with a new O-ring.
+</div>
+</li>
+</ol>
+<a name="i130">
+</a>
+<ol>
+<li value="13">
+<div>
+Reconnect ECM connector B (24P), the rocker arm oil control solenoid (VTEC solenoid valve) 1P connector, and the rocker arm oil pressure switch (VTEC oil pressure switch) 2P connector.
+</div>
+</li>
+</ol>
+<a name="i140">
+</a>
+<ol>
+<li value="14">
+<div>
+Start the engine. Hold the engine speed at 3,000 rpm (min
+<sup>
+−1
+</sup>
+) without load (in neutral) until the radiator fan comes on.
+</div>
+</li>
+</ol>
+<a name="i150">
+</a>
+<ol>
+<li value="15">
+<div>
+Check oil pressure at engine speeds of 1,000 and 2,000 rpm (min
+<sup>
+−1
+</sup>
+). Keep measuring time as short as possible because the engine is running without load (less than 1 minute).
+</div>
+</li>
+</ol>
+<div style="text-indent:40px;">
+<i>
+Is pressure below 49 kPa (0.5 kgf/cm
+<sup>
+2
+</sup>
+, 7 psi)?
+</i>
+</div>
+<table class="Viewer" frame="void" style="margin-left:50px;">
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+YES
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Go to 
+<a href="javascript:parent.Jmp('i160')">Step 16
+</a>
+.
+</div>
+</td>
+</tr>
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+NO
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+<a href="javascript:parent.Cts('000000000001059','i000')">
+Inspect the rocker arm oil control solenoid (VTEC solenoid valve).
+</a>
+■
+</div>
+</td>
+</tr>
+</table>
+<a name="i160">
+</a>
+<ol>
+<li value="16">
+<div>
+Turn the ignition switch OFF.
+</div>
+</li>
+</ol>
+<a name="i170">
+</a>
+<ol>
+<li value="17">
+<div>
+Disconnect the rocker arm oil control solenoid (VTEC solenoid valve) 1P connector.
+</div>
+</li>
+</ol>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+<span style="display:none" id="imgId1">
+<div style="page-break-after:always;">
+</div>
+</span>
+<div>
+<a href="javascript:parent.Prt('ZOOM000000000004327','1');">
+<img src="../tn/SJD6E73K72100092645FAAD05.png">
+</a>
+</div>
+</td>
+</tr>
+</table>
+<hr width="100%" size="2" color="gray">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<a name="i180">
+</a>
+<ol>
+<li value="18">
+<div>
+Attach the battery positive terminal to the rocker arm oil control solenoid (VTEC solenoid valve) 1P connector terminal.
+</div>
+</li>
+</ol>
+<a name="i190">
+</a>
+<ol>
+<li value="19">
+<div>
+Start the engine, then connect the battery negative to body ground and check oil pressure at an engine speed of 3,000 rpm (min
+<sup>
+−1
+</sup>
+).
+</div>
+</li>
+</ol>
+<div style="text-indent:40px;">
+<i>
+Is pressure above 390 kPa (4.0 kgf/cm
+<sup>
+2
+</sup>
+, 57 psi)?
+</i>
+</div>
+<table class="Viewer" frame="void" style="margin-left:50px;">
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+YES
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Go to 
+<a href="javascript:parent.Jmp('i270')">Step 27
+</a>
+</div>
+</td>
+</tr>
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+NO
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+<a href="javascript:parent.Cts('000000000001059','i000')">
+Inspect the rocker arm oil control solenoid (VTEC solenoid valve).
+</a>
+■
+</div>
+</td>
+</tr>
+</table>
+<a name="i200">
+</a>
+<ol>
+<li value="20">
+<div>
+<a href="javascript:parent.Cts('000000000001060','i000')">
+Replace the rocker arm oil control solenoid (VTEC solenoid valve).
+</a>
+</div>
+</li>
+</ol>
+<a name="i210">
+</a>
+<ol>
+<li value="21">
+<div>
+Reconnect all connectors.
+</div>
+</li>
+</ol>
+<a name="i220">
+</a>
+<ol>
+<li value="22">
+<div>
+Turn the ignition switch ON (II).
+</div>
+</li>
+</ol>
+<a name="i230">
+</a>
+<ol>
+<li value="23">
+<div>
+Reset the ECM with the HDS.
+</div>
+</li>
+</ol>
+<a name="i240">
+</a>
+<ol>
+<li value="24">
+<div>
+<a href="javascript:parent.Cts('000000000000838','i000')">
+Do the ECM idle learn procedure.
+</a>
+</div>
+</li>
+</ol>
+<a name="i250">
+</a>
+<ol>
+<li value="25">
+<div>
+Do the VTEC TEST in the INSPECTION MENU with the HDS.
+</div>
+</li>
+</ol>
+<a name="i260">
+</a>
+<ol>
+<li value="26">
+<div>
+Check for Temporary DTCs or DTCs with the HDS.
+</div>
+</li>
+</ol>
+<div style="text-indent:40px;">
+<i>
+Are any Temporary DTCs or DTCs indicated?
+</i>
+</div>
+<table class="Viewer" frame="void" style="margin-left:50px;">
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+YES
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+If DTC P2646 is indicated, check for poor connections or loose terminals at the rocker arm oil control solenoid (VTEC solenoid valve) and the ECM, then go to 
+<a href="javascript:parent.Jmp('i010')">Step 1
+</a>
+. If any other Temporary DTCs or DTCs are indicated, go to the indicated DTC's troubleshooting.
+</div>
+</td>
+</tr>
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+NO
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Troubleshooting is complete.■
+</div>
+</td>
+</tr>
+</table>
+<a name="i270">
+</a>
+<ol>
+<li value="27">
+<div>
+<a href="javascript:parent.Cts('000000000000708','iG10')">
+Update the ECM if it does not have the latest software, or substitute a known-good ECM.
+</a>
+</div>
+</li>
+</ol>
+<a name="i280">
+</a>
+<ol>
+<li value="28">
+<div>
+Do the VTEC TEST in the INSPECTION MENU with the HDS.
+</div>
+</li>
+</ol>
+<a name="i290">
+</a>
+<ol>
+<li value="29">
+<div>
+Check for Temporary DTCs or DTCs with the HDS.
+</div>
+</li>
+</ol>
+<div style="text-indent:40px;">
+<i>
+Are any Temporary DTCs or DTCs indicated?
+</i>
+</div>
+<table class="Viewer" frame="void" style="margin-left:50px;">
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+YES
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+If DTC P2646 is indicated, check for poor connections or loose terminals at the rocker arm oil control solenoid (VTEC solenoid valve) and the ECM, then go to 
+<a href="javascript:parent.Jmp('i010')">Step 1
+</a>
+. If any other Temporary DTCs or DTCs are indicated, go to the indicated DTC's troubleshooting.
+</div>
+</td>
+</tr>
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+NO
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+If the ECM was updated, troubleshooting is complete. If the ECM was subsutituted, 
+<a href="javascript:parent.Cts('000000000000670','i000')">
+replace the original ECM.
+</a>
+■
+</div>
+</td>
+</tr>
+</table>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+<span style="display:none" id="imgId1">
+<div style="page-break-after:always;">
+</div>
+</span>
+<div>
+<a href="javascript:parent.Prt('ZOOM000000000004328','1');">
+<img src="../tn/SJD6E73K72100092645FAAD06.png">
+</a>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

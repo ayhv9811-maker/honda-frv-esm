@@ -1,0 +1,37 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:950px; height:975px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:950px;position:relative;height:975px;\">");
+write("<img id=\"img1\" src=\"../img/SJD7EC0J10300000000DAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:975px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:486px;top:118px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>ANTENNA SUBLEAD<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:351px;top:771px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>ANTENNA LEAD<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:0px;top:911px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>*: With premium audio<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:0px;top:943px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b></b>RHD type is shown, LHD type is similar.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:105px;top:687px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>AUXILIARY JACK SASSEMBLY<br><a href=\"javascript:parent.Cts('000000000003575','i000')\"></b>Connector Inputs and Outputs,<br></a><br><a href=\"javascript:parent.Cts('000000000003574','i000')\">Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:6px;top:439px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>LEFT TWEETER*<br><a href=\"javascript:parent.Cts('000000000000188','i000')\"></b>Replacement,<br></a><br> in the Shop Manual,<br> P/N 62SJD00<br></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:15px;top:582px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>LEFT FRONT SPEAKER<br><a href=\"javascript:parent.Cts('000000000000192','i000')\"></b>Replacement,</a><br> in the Shop Manual,<br> P/N 62SJD00<br></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:504px;top:837px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>LEFT REAR SPEAKER<br><a href=\"javascript:parent.Cts('000000000000192','i000')\"></b>Replacement,</a><br> in the Shop Manual, P/N 62SJD00<br></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" class=\"drag\" style=\"position:absolute;left:785px;top:160px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>ROOF ANTENNA<br><a href=\"javascript:parent.Cts('000000000000188','i000')\"></b>Replacement,<br></a><br> in the Shop Manual,<br> P/N 62SJD00<br></nobr>");
+write("</p>");
+write("<p id=\"p1_10\" class=\"drag\" style=\"position:absolute;left:481px;top:15px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>AUDIO UNIT<br><a href=\"javascript:parent.Cts('000000000000189','i000')\"></b>Removal,</a><br> in the Shop Manual, P/N 62SJD00<br><a href=\"javascript:parent.Cts('000000000001461','i000')\">Connector Terminals,</a><br> in the Shop Manual, P/N 62SJD00<br></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

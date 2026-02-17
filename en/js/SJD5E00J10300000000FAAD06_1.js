@@ -1,0 +1,37 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:475px; height:320px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:475px;position:relative;height:320px;\">");
+write("<img id=\"img1\" src=\"../img/SJD5E00J10300000000FAAD06.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:475px;height:320px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:107px;top:32px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>AUDIO UNIT CONNECTOR A (20P)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:125px;top:270px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b></b>Wire side of female terminals<br></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:285px;top:225px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>PNK<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:313px;top:197px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>LT GRN<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:312px;top:109px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>LT BLU<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:285px;top:84px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>ORN<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:218px;top:84px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>PUR<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:176px;top:114px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>BLU<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" class=\"drag\" style=\"position:absolute;left:184px;top:197px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>YEL<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_10\" class=\"drag\" style=\"position:absolute;left:205px;top:225px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>BRN<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

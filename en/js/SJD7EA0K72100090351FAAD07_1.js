@@ -1,0 +1,34 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:475px; height:401px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:475px;position:relative;height:401px;\">");
+write("<img id=\"img1\" src=\"../img/SJD7EA0K72100090351FAAD07.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:475px;height:401px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:152px;top:90px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>IGPLS<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:234px;top:91px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b></b>Wire side of female terminals<br></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:8px;top:211px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>ECM/PCM CONNECTOR C (44P)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:112px;top:369px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b></b>Terminal side of female terminals<br></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:127px;top:16px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>IGNITION COIL 3P CONNECTOR<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:113px;top:183px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>IGPLS1 (YEL/GRN)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:382px;top:308px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>IGPLS3<br>(WHT/BLU)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:137px;top:157px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>IGPLS2 (BLU/RED)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" class=\"drag\" style=\"position:absolute;left:348px;top:196px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>IGPLS4<br>(BRN)<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

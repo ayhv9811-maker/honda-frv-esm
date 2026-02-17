@@ -1,0 +1,34 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:950px; height:1103px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:950px;position:relative;height:1103px;\">");
+write("<img id=\"img1\" src=\"../img/SJD7ECJA18300000000DAAD02.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:1103px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:605px;top:28px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>PISTON RINGS<br><a href=\"javascript:parent.Cts('000000000002507','i000')\"></b>Replacement,</a> <br> in the Shop Manual, P/N 62SJD21<br></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:627px;top:183px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SNAP RINGS<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:588px;top:241px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>PISTON PIN <br><a href=\"javascript:parent.Cts('000000000002505','iR01')\"></b>Removal,</a> <br> in the Shop Manual, P/N 62SJD21<br><a href=\"javascript:parent.Cts('000000000002505','iR02')\">Inspection,</a> <br> in the Shop Manual, P/N 62SJD21<br><a href=\"javascript:parent.Cts('000000000002505','iR03')\">Installation,</a> <br> in the Shop Manual, P/N 62SJD21<br></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:636px;top:790px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>ENGINE BLOCK<br><a href=\"javascript:parent.Cts('000000000002496','i000')\"></b>Cylinder Bore Inspection,</a><br> in the Shop Manual, P/N 62SJD21<br><a href=\"javascript:parent.Cts('000000000002496','i000')\">Warpage Inspection,</a><br> in the Shop Manual, P/N 62SJD21<br><a href=\"javascript:parent.Cts('000000000002495','i000')\">Cylinder Bore Honing,</a><br> in the Shop Manual, P/N 62SJD21<br><a href=\"javascript:parent.Cts('000000000002501','i080')\">Ridge Removal,</a><br> in the Shop Manual, P/N 62SJD21<br></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:532px;top:942px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>CONNECTING ROD BEARINGS<br><a href=\"javascript:parent.Cts('000000000002499','iR01')\"></b>Oil Clearance,</a><br> in the Shop Manual, P/N 62SJD21<br><a href=\"javascript:parent.Cts('000000000002499','iR02')\">Selection,</a><br> in the Shop Manual, P/N 62SJD21<br></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:498px;top:1041px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>CONNECTING ROD BOLT<br><a href=\"javascript:parent.Cts('000000000002500','i000')\"></b>Inspection,</a><br> in the Shop Manual, P/N 62SJD21<br></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:171px;top:966px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>CONNECTING ROD<br>BEARING CAP<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:105px;top:417px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>CONNECTING ROD<br><a href=\"javascript:parent.Cts('000000000002498','i000')\"></b>End Play,</a><br> in the Shop Manual, P/N 62SJD21 <br><a href=\"javascript:parent.Cts('000000000002505','i000')\">Small End Measurement,</a><br> in the Shop Manual, P/N 62SJD21<br></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" class=\"drag\" style=\"position:absolute;left:108px;top:242px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>PISTON<br><a href=\"javascript:parent.Cts('000000000002501','i000')\"></b>Removal,</a> <br> in the Shop Manual, P/N 62SJD21<br><a href=\"javascript:parent.Cts('000000000002496','i000')\">Measurement,</a> <br> in the Shop Manual, P/N 62SJD21<br></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

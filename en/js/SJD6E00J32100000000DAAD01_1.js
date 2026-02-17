@@ -1,0 +1,37 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:950px; height:1007px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:950px;position:relative;height:1007px;\">");
+write("<img id=\"img1\" src=\"../img/SJD6E00J32100000000DAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:1007px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:569px;top:201px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>HIGH BEAM INDICATOR<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:448px;top:169px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>REAR FOG LIGHT INDICATOR<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:349px;top:139px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FRONT FOG LIGHT INDICATOR<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:322px;top:78px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>REAR FOG LIGHT CONTROL UNIT<br><a href=\"javascript:parent.Cts('000000000001355','i000')\"></b>Input Test,</a><br> in the Shop Manual, P/N 62SJD00<br></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:251px;top:16px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>HEADLIGHT ADJUSTER CONTROL UNIT (With HID)<br><a href=\"javascript:parent.Cts('000000000001531','i000')\"></b>Input Test,</a><br> in the Shop Manual, P/N 62SJD00<br></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:665px;top:675px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>COMBINATION LIGHT SWITCH<br><a href=\"javascript:parent.Cts('000000000001469','i000')\"></b>Test/Replacement,</a><br> in the Shop Manual, P/N 62SJD00<br></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:547px;top:754px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FRONT FOG LIGHT RELAY<br><a href=\"javascript:parent.Cts('000000000002123','i000')\"></b>Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:486px;top:817px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>HIGH BEAM CUT RELAY<br><a href=\"javascript:parent.Cts('000000000002123','i000')\"></b>Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" class=\"drag\" style=\"position:absolute;left:321px;top:880px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>TAILLIGHT RELAY<br><a href=\"javascript:parent.Cts('000000000002123','i000')\"></b>Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_10\" class=\"drag\" style=\"position:absolute;left:174px;top:943px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>BRAKE PEDAL POSITION SWITCH<br><a href=\"javascript:parent.Cts('000000000000290','i000')\"></b>Test,</a><br> in the Shop Manual, P/N 62SJD00<br></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

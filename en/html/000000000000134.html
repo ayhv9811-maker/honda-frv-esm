@@ -1,0 +1,257 @@
+<html lang="en">
+<head>
+<meta name="author" content="HONDA ACCESS Co.,Ltd.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<title>SJD5E00H46400000000FAAT02</title>
+<link href="../css/ViewerStyle.css" rel="stylesheet">
+<style>
+	.drag	{ position: relative; cursor:pointer; }
+</style>
+</head>
+<script>
+<!--
+-->
+</script>
+<body onload="javascript:parent.Old(this)" style="font-family:sans-serif;">
+<div>
+<div class="top_title">
+SRS Symptom Troubleshooting - SRS indicator stays on but no DTCs are stored
+</div>
+<hr width="100%" size="2" color="gray">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<div class="test_procedure_title">
+<b>
+SRS indicator stays on but no DTCs are stored
+</b>
+</div>
+<div>
+NOTE:
+</div>
+<ul type="disc">
+<li>
+<div>
+If you cannot retrieve DTCs with the HDS using the SRS menu method, retrieve flash codes with the HDS in SCS mode.
+</div>
+</li>
+<li>
+<div>
+A new SRS unit must sense the entire system is OK before completing its initial self-test. The most common cause of an incomplete self-test is the failure to replace all deployed parts after a collision, in particular seat belt tensioners.
+</div>
+</li>
+<li>
+<div>
+A battery/system voltage above 15.2 V can cause the SRS indicator to come on without storing any DTCs.
+</div>
+</li>
+</ul>
+<a name="i010">
+</a>
+<ol>
+<li value="1">
+<div>
+Disconnect the battery negative cable, and wait for 3 minutes.
+</div>
+</li>
+</ol>
+<a name="i020">
+</a>
+<ol>
+<li value="2">
+<div>
+<a href="javascript:parent.Cts('000000000000128','i300')">
+Disconnect SRS unit connector A (28P) from the SRS unit.
+</a>
+</div>
+</li>
+</ol>
+<a name="i030">
+</a>
+<ol>
+<li value="3">
+<div>
+<a href="javascript:parent.Cts('000000000000253','i000')">
+Remove the gauge assembly.
+</a>
+ Disconnect gauge assembly connector A (20P) from the gauge assembly.
+</div>
+</li>
+</ol>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+<span style="display:none" id="imgId1">
+<div style="page-break-after:always;">
+</div>
+</span>
+<div>
+<a href="javascript:parent.Prt('ZOOM000000000000392','1');">
+<img src="../tn/SJD5E00H46400000000FAAD06.png">
+</a>
+</div>
+</td>
+</tr>
+</table>
+<hr width="100%" size="2" color="gray">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<a name="i040">
+</a>
+<ol>
+<li value="4">
+<div>
+Check resistance between the No. 3 terminal of gauge assembly connector A (20P) and the No. 11 terminal of SRS unit connector A (28P). There should be 1 Ω or less.
+</div>
+</li>
+</ol>
+<div style="text-indent:40px;">
+<i>
+Is the resistance as specified?
+</i>
+</div>
+<table class="Viewer" frame="void" style="margin-left:50px;">
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+YES
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Go to 
+<a href="javascript:parent.Jmp('i050')">Step 5
+</a>
+.
+</div>
+</td>
+</tr>
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+NO
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Open in the dashboard wire harness; replace the dashboard wire harness.■
+</div>
+</td>
+</tr>
+</table>
+<a name="i050">
+</a>
+<ol>
+<li value="5">
+<div>
+Reconnect the battery negative cable.
+</div>
+</li>
+</ol>
+<a name="i060">
+</a>
+<ol>
+<li value="6">
+<div>
+Reconnect gauge assembly connector A (20P) to the gauge assembly.
+</div>
+</li>
+</ol>
+<a name="i070">
+</a>
+<ol>
+<li value="7">
+<div>
+Turn the ignition switch ON (II).
+</div>
+</li>
+</ol>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+<span style="display:none" id="imgId1">
+<div style="page-break-after:always;">
+</div>
+</span>
+<div>
+<a href="javascript:parent.Prt('ZOOM000000000000393','1');">
+<img src="../tn/SJD5E00H46400000000FAAD07.png">
+</a>
+</div>
+</td>
+</tr>
+</table>
+<hr width="100%" size="2" color="gray">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<a name="i080">
+</a>
+<ol>
+<li value="8">
+<div>
+Install a jumper wire between the No. 3 terminal and the No. 20 terminal of the gauge assembly connector A (20P). The SRS indicator should go off.
+</div>
+</li>
+</ol>
+<div style="text-indent:40px;">
+<i>
+Does the SRS indicator go off?
+</i>
+</div>
+<table class="Viewer" frame="void" style="margin-left:50px;">
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+YES
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Faulty SRS unit or poor contact at SRS unit connector A (28P) and the SRS unit; check the connection. If the connection is OK, 
+<a href="javascript:parent.Cts('000000000000148','i000')">
+replace the SRS unit.
+</a>
+■
+</div>
+</td>
+</tr>
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+NO
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Faulty SRS indicator circuit in the gauge assembly or poor contact at gauge assembly connector A (20P); check the connection. If the connection is OK, replace the gauge assembly.■
+</div>
+</td>
+</tr>
+</table>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+<span style="display:none" id="imgId1">
+<div style="page-break-after:always;">
+</div>
+</span>
+<div>
+<a href="javascript:parent.Prt('ZOOM000000000000394','1');">
+<img src="../tn/SJD5E00H46400000000FAAD08.png">
+</a>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

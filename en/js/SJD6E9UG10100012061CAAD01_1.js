@@ -1,0 +1,31 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:950px; height:319px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:950px;position:relative;height:319px;\">");
+write("<img id=\"img1\" src=\"../img/SJD6E9UG10100012061CAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:319px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:111px;top:146px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>ON<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:111px;top:194px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>OFF<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:240px;top:212px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>196 kPa<br>(2.0 kgf/cm<sup>2</sup>, 28 psi)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:304px;top:162px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>225 kPa<br>(2.3 kgf/cm<sup>2</sup>, 33 psi)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:541px;top:162px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>2,550 kPa<br>(26.0 kgf/cm<sup>2</sup>, 370 psi)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:710px;top:212px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>3,140 kPa<br>(32.0 kgf/cm<sup>2</sup>, 455 psi)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:674px;top:75px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>590 kPa<br>(6.0 kgf/cm<sup>2</sup>, 85 psi)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:204px;top:76px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>20 kPa<br>(0.2 kgf/cm<sup>2</sup>, 2.8 psi)<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

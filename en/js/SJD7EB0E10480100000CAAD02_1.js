@@ -1,0 +1,37 @@
+with(document) {
+write("<div id=\"group2\" class=\"drag\" style=\"position:relative; width:950px; height:319px;\">");
+write("<div id=\"rect2\"class=\"drag\" style=\"width:950px;position:relative;height:319px;\">");
+write("<img id=\"img2\" src=\"../img/SJD7EB0E10480100000CAAD02.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:319px;border-color:#ffffff\">");
+write("<p id=\"p2_1\" class=\"drag\" style=\"position:absolute;left:590px;top:32px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SHIFT VALVE A<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_2\" class=\"drag\" style=\"position:absolute;left:268px;top:16px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>MAIN VALVE BODY<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_3\" class=\"drag\" style=\"position:absolute;left:606px;top:51px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SHIFT VALVE B<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_4\" class=\"drag\" style=\"position:absolute;left:629px;top:82px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SHIFT VALVE C<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_5\" class=\"drag\" style=\"position:absolute;left:686px;top:244px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>COOLER CHECK VALVE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_6\" class=\"drag\" style=\"position:absolute;left:626px;top:286px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>LOCK-UP CONTROL VALVE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_7\" class=\"drag\" style=\"position:absolute;left:343px;top:258px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SHIFT VALVE E<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_8\" class=\"drag\" style=\"position:absolute;left:268px;top:284px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SERVO CONTROL VALVE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_9\" class=\"drag\" style=\"position:absolute;left:712px;top:142px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>RELIEF VALVE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_10\" class=\"drag\" style=\"position:absolute;left:203px;top:64px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>MANUAL VALVE<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

@@ -1,0 +1,37 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:950px; height:735px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:950px;position:relative;height:735px;\">");
+write("<img id=\"img1\" src=\"../img/SJD5E2AJ54200000000DEAD03.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:735px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:536px;top:18px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>RIGHT SUPER LOCKING RELAY<br></b>Wire colors: BLU, RED,<br>YEL, BLK and RED<br></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:732px;top:259px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>POWER WINDOW<br>MASTER SWITCH <br>(Has built-in control unit)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:90px;top:74px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>CLIMATE CONTROL UNIT<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:2px;top:703px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b></b>RHD type is shown, LHD type is similar.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:732px;top:180px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>HEADLIGHTS ADJUSTER<br>CONTROL UNIT<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:249px;top:106px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>NAVIGATION DISPLAY UNIT<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:536px;top:75px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>LEFT SUPER LOCKING RELAY<br></b>Wire colors: PNK, RED,<br>BRN, BLK and RED<br></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:285px;top:510px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>AUDIO UNIT<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" class=\"drag\" style=\"position:absolute;left:466px;top:571px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FRONT FOG LIGHT RELAY (KE)<br></b>Wire colors: PNK, ORN,<br>BLK and PNK<br></nobr>");
+write("</p>");
+write("<p id=\"p1_10\" class=\"drag\" style=\"position:absolute;left:466px;top:629px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>REAR FOG LIGHT RELAY <br></b>Wire colors: GRN, LT GRN,<br>BRN and BLU<br></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

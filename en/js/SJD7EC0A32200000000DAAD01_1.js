@@ -1,0 +1,34 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:950px; height:1055px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:950px;position:relative;height:1055px;\">");
+write("<img id=\"img1\" src=\"../img/SJD7EC0A32200000000DAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:1055px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:1px;top:824px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>OIL PRESSURE SWITCH<br><a href=\"javascript:parent.Cts('000000000003479','i000')\"></b>Circuit Diagram,</a><br><a href=\"javascript:parent.Cts('000000000003486','i000')\">Test,</a><br><a href=\"javascript:parent.Cts('000000000003487','i000')\">Replacement,</a><br><a href=\"javascript:parent.Cts('000000000003472','i000')\">Oil Pressure Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:586px;top:16px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>OIL FILTER<br><a href=\"javascript:parent.Cts('000000000003482','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:626px;top:1009px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>OIL PUMP<br><a href=\"javascript:parent.Cts('000000000003488','i000')\"></b>Overhaul,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:716px;top:475px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>OIL PAN<br><a href=\"javascript:parent.Cts('000000000003335','i000')\"></b>Removal,</a><br><a href=\"javascript:parent.Cts('000000000003336','i000')\">Installation,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:22px;top:287px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>BAFFLE PLATE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:229px;top:217px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>OIL SCREEN<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:628px;top:66px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>OIL FILTER FEED PIPE<br><a href=\"javascript:parent.Cts('000000000003483','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:704px;top:889px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>CRANKSHAFT OIL SEAL,<br>PULLEY END<br><a href=\"javascript:parent.Cts('000000000003347','i000')\"></b>Installation,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" class=\"drag\" style=\"position:absolute;left:760px;top:262px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>OIL LEVEL SENSOR<br><a href=\"javascript:parent.Cts('000000000003437','i000')\"></b>Replace,</a><br></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

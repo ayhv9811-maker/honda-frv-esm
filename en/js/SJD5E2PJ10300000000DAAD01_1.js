@@ -1,0 +1,34 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:950px; height:1007px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:950px;position:relative;height:1007px;\">");
+write("<img id=\"img1\" src=\"../img/SJD5E2PJ10300000000DAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:1007px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:431px;top:16px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>AUDIO UNIT<br><a href=\"javascript:parent.Cts('000000000000189','i000')\"></b>Removal,</a><br><a href=\"javascript:parent.Cts('000000000001461','i000')\">Connector Terminals,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:444px;top:93px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>ANTENNA SUBLEAD<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:773px;top:167px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>ROOF ANTENNA<br><a href=\"javascript:parent.Cts('000000000000188','i000')\"></b>Replacement,<br></a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:17px;top:522px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>LEFT TWEETER*<br><a href=\"javascript:parent.Cts('000000000000192','iR03')\"></b>Replacement,<br></a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:249px;top:766px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>ANTENNA LEAD<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:77px;top:647px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>LEFT FRONT SPEAKER<br><a href=\"javascript:parent.Cts('000000000000192','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:419px;top:850px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>LEFT REAR SPEAKER<br><a href=\"javascript:parent.Cts('000000000000192','iR02')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:0px;top:945px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>*: With premium audio<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" class=\"drag\" style=\"position:absolute;left:0px;top:977px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b></b>RHD type is shown, LHD type is similar.<br></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

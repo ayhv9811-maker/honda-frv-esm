@@ -1,0 +1,31 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:950px; height:1007px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:950px;position:relative;height:1007px;\">");
+write("<img id=\"img1\" src=\"../img/SJD5E00R31100000000YDAD39.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:1007px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:788px;top:25px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>REAR PILLAR<br>UPPER GUTTER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:821px;top:87px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>REAR INSIDE<br>MEMBER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:834px;top:193px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>REAR PILLAR<br>LOWER GUTTER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:436px;top:128px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>REAR DAMPER<br>STIFFENER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:554px;top:427px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>REAR INNER PANEL<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:459px;top:478px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>REAR WHEEL ARCH<br>EXTENSION<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:212px;top:544px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>OUTER PANEL<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:374px;top:828px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>REAR PILLAR<br>LOWER GUTTER<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

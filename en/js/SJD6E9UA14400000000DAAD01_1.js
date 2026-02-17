@@ -1,0 +1,31 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:950px; height:1071px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:950px;position:relative;height:1071px;\">");
+write("<img id=\"img1\" src=\"../img/SJD6E9UA14400000000DAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:1071px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:546px;top:795px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>THERMOSTAT<br><a href=\"javascript:parent.Cts('000000000002444','i000')\"></b>Test,</a><br><a href=\"javascript:parent.Cts('000000000002445','i000')\">Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:700px;top:736px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>ENGINE OIL COOLER<br><a href=\"javascript:parent.Cts('000000000002544','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:86px;top:372px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>WATER PUMP<br><a href=\"javascript:parent.Cts('000000000002449','i000')\"></b>Inspection,</a><br><a href=\"javascript:parent.Cts('000000000002448','i000')\">Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:101px;top:652px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>EXPANSION<br>TANK CAP<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:50px;top:847px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>A/C CONDENSER FAN<br>ASSEMBLY<br><a href=\"javascript:parent.Cts('000000000002440','i000')\"></b>Replacement,</a><br><a href=\"javascript:parent.Cts('000000000002443','i000')\">Fan Motor Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:362px;top:1013px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>RADIATOR FAN ASSEMBLY<br><a href=\"javascript:parent.Cts('000000000002440','i000')\"></b>Replacement,</a><br><a href=\"javascript:parent.Cts('000000000002443','i000')\">Fan Motor Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:158px;top:957px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>RADIATOR FAN SWITCH (LOW)<br><a href=\"javascript:parent.Cts('000000000002463','i000')\"></b>Test,</a><br><a href=\"javascript:parent.Cts('000000000002464','i000')\">Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:16px;top:766px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>RADIATOR<br><a href=\"javascript:parent.Cts('000000000002440','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

@@ -1,0 +1,37 @@
+with(document) {
+write("<div id=\"group2\" class=\"drag\" style=\"position:relative; width:950px; height:287px;\">");
+write("<div id=\"rect2\"class=\"drag\" style=\"width:950px;position:relative;height:287px;\">");
+write("<img id=\"img2\" src=\"../img/SJD5E00J54300065801FHAD03.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:287px;border-color:#ffffff\">");
+write("<p id=\"p2_1\" class=\"drag\" style=\"position:absolute;left:157px;top:22px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>Terminal<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_2\" class=\"drag\" style=\"position:absolute;left:51px;top:57px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>Position<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_3\" class=\"drag\" style=\"position:absolute;left:122px;top:143px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>OFF<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_4\" class=\"drag\" style=\"position:absolute;left:58px;top:233px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>Wiper and Washer <br>switch ON<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_5\" class=\"drag\" style=\"position:absolute;left:264px;top:42px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>1<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_6\" class=\"drag\" style=\"position:absolute;left:346px;top:42px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>4<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_7\" class=\"drag\" style=\"position:absolute;left:426px;top:42px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>3<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_8\" class=\"drag\" style=\"position:absolute;left:505px;top:42px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>7<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_9\" class=\"drag\" style=\"position:absolute;left:125px;top:191px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>ON<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_10\" class=\"drag\" style=\"position:absolute;left:54px;top:89px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>Washer switch ON and <br>wiper switch OFF<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

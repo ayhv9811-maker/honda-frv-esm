@@ -1,0 +1,31 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:475px; height:320px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:475px;position:relative;height:320px;\">");
+write("<img id=\"img1\" src=\"../img/SJD5E00J36200000000FEAD02.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:475px;height:320px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:346px;top:68px;font-weight:normal;font-size:10.9pt;\">");
+write("<nobr><b>Next<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:56px;top:68px;font-weight:normal;font-size:10.9pt;\">");
+write("<nobr><b>System Links <br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:255px;top:188px;font-weight:normal;font-size:10.9pt;\">");
+write("<nobr><b>Navi ECU<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:139px;top:163px;font-weight:normal;font-size:10.9pt;\">");
+write("<nobr><b>Disp<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:131px;top:187px;font-weight:normal;font-size:10.9pt;\">");
+write("<nobr><b>Audio<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:287px;top:123px;font-weight:normal;font-size:10.9pt;\">");
+write("<nobr><b>ANT<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:288px;top:162px;font-weight:normal;font-size:10.9pt;\">");
+write("<nobr><b>GPS<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:247px;top:67px;font-weight:normal;font-size:10.9pt;\">");
+write("<nobr><b>OK<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

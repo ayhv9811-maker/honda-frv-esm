@@ -1,0 +1,34 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:950px; height:975px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:950px;position:relative;height:975px;\">");
+write("<img id=\"img1\" src=\"../img/SJD5E20A14100012901LAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:975px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:384px;top:824px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>REAR BEARING<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:581px;top:945px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>ROTOR<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:282px;top:16px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>BEARING RETAINER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:403px;top:52px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FRONT BEARING<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:585px;top:52px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>DRIVE-END HOUSING<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:672px;top:431px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>PULLEY<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:748px;top:211px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>PULLEY LOCKNUT<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:157px;top:785px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>REAR HOUSING<br>ASSEMBLY<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" class=\"drag\" style=\"position:absolute;left:44px;top:674px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>TERMINAL INSULATOR<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

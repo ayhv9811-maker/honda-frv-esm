@@ -1,0 +1,37 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:475px; height:593px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:475px;position:relative;height:593px;\">");
+write("<img id=\"img1\" src=\"../img/SJD6E9UA14400049001KBAD08.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:475px;height:593px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:43px;top:34px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>F<br>6 x 1.0 mm<br>7 N·m <br>(0.7 kgf·m, 5 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:219px;top:16px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>D<br>6 x 1.0 mm<br>7 N·m (0.7 kgf·m, 5 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:329px;top:76px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>6 x 1.0 mm<br>7 N·m <br>(0.7 kgf·m, 5 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:40px;top:514px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>G<br>6 x 1.0 mm<br>7 N·m <br>(0.7 kgf·m, 5 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:194px;top:514px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>E<br>6 x 1.0 mm<br>7 N·m <br>(0.7 kgf·m, 5 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:90px;top:439px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>A<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:386px;top:351px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>B<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:423px;top:185px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>C<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" class=\"drag\" style=\"position:absolute;left:289px;top:76px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>I<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_10\" class=\"drag\" style=\"position:absolute;left:67px;top:249px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>H<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

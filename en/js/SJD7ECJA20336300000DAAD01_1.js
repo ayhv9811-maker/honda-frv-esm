@@ -1,0 +1,34 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:950px; height:607px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:950px;position:relative;height:607px;\">");
+write("<img id=\"img1\" src=\"../img/SJD7ECJA20336300000DAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:607px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:758px;top:353px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>AIR CLEANER<br><a href=\"javascript:parent.Cts('000000000002537','i000')\"></b>Removal/Installation,<br></a><br> in the Shop Manual<br> Supplement, P/N 62SJD21<br></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:758px;top:427px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>AIR CLEANER ELEMENT<br><a href=\"javascript:parent.Cts('000000000002538','i000')\"></b>Inspection/Replacement,<br></a><br> in the Shop Manual<br> Supplement, P/N 62SJD21<br></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:247px;top:14px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>INTAKE MANIFOLD<br>RUNNER CONTROL <br>(IMRC) POSITION SENSOR <br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:633px;top:511px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>AIR INTAKE DUCT<br><a href=\"javascript:parent.Cts('000000000002539','i000')\"></b>Removal/Installation,<br></a><br> in the Shop Manual Supplement,<br> P/N 62SJD21<br></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:14px;top:383px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>INTAKE MANIFOLD RUNNER<br>CONTROL (IMRC)<br>SOLENOID VALVE<br><a href=\"javascript:parent.Cts('000000000003793','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:0px;top:577px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b></b>*: This illustration shows LHD model.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:85px;top:459px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>INTAKE MANIFOLD RUNNER<br>CONTROL (IMRC) VALVE<br><a href=\"javascript:parent.Cts('000000000003794','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:300px;top:511px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>INTAKE SHUTTER VALVE (ISV)<br>(with DPF system)<br><a href=\"javascript:parent.Cts('000000000003050','i000')\"></b>Cleaning,</a><br><a href=\"javascript:parent.Cts('000000000003049','i000')\">Removal/Installation,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" class=\"drag\" style=\"position:absolute;left:523px;top:14px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>TURBOCHARGER BOOST<br>CONTROL SOLENOID VALVE <br><a href=\"javascript:parent.Cts('000000000002540','i000')\"></b>Replacement,</a><br> in the Shop Manual Supplement, P/N 62SJD21<br></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

@@ -1,0 +1,37 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:475px; height:192px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:475px;position:relative;height:192px;\">");
+write("<img id=\"img1\" src=\"../img/SJD5E20A14426149451FEAD02.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:475px;height:192px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:47px;top:44px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>Operation<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:305px;top:20px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>Terminal<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:185px;top:44px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>Temperature<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:46px;top:99px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>SWITCH<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:141px;top:77px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>ON<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:137px;top:128px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>OFF<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:400px;top:31px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>1<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:433px;top:31px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>2<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" class=\"drag\" style=\"position:absolute;left:185px;top:69px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>91−95 °C<br>(196−203 °F)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_10\" class=\"drag\" style=\"position:absolute;left:185px;top:111px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>3−8 °C (5−15 °F) Lower<br>than the temperature<br>when it goes on<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

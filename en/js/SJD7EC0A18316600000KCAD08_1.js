@@ -1,0 +1,37 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:475px; height:417px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:475px;position:relative;height:417px;\">");
+write("<img id=\"img1\" src=\"../img/SJD7EC0A18316600000KCAD08.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:475px;height:417px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:235px;top:384px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>(1)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:257px;top:16px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>(2)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:338px;top:384px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>(3)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:149px;top:16px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>(4)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:421px;top:16px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>(8)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:424px;top:384px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>(9)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:71px;top:16px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>(10)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:150px;top:384px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>(5)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" class=\"drag\" style=\"position:absolute;left:339px;top:16px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>(6)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_10\" class=\"drag\" style=\"position:absolute;left:67px;top:384px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>(7)<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

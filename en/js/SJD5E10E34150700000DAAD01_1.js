@@ -1,0 +1,31 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:950px; height:1007px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:950px;position:relative;height:1007px;\">");
+write("<img id=\"img1\" src=\"../img/SJD5E10E34150700000DAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:1007px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:530px;top:19px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>75 mm THRUST SHIM<br><a href=\"javascript:parent.Cts('000000000000701','i000')\"></b>Adjustment,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:531px;top:127px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>BEARING OUTER RACE<br><a href=\"javascript:parent.Cts('000000000000701','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:530px;top:234px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>TAPERED ROLLER<br>BEARING<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:531px;top:378px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>DIFFERENTIAL CARRIER<br><a href=\"javascript:parent.Cts('000000000000705','i000')\"></b>Backlash Inspection,</a><br><a href=\"javascript:parent.Cts('000000000000703','i000')\">Replacement,</a><br><a href=\"javascript:parent.Cts('000000000000701','i000')\">Preload Adjustment,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:533px;top:615px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FINAL DRIVEN GEAR<br><a href=\"javascript:parent.Cts('000000000000703','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:531px;top:750px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>TAPERED ROLLER BEARING<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:529px;top:870px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>BEARING OUTER RACE<br><a href=\"javascript:parent.Cts('000000000000701','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:528px;top:970px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>75 mm SHIM<br></b></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}

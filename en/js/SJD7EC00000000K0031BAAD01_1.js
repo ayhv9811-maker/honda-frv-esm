@@ -1,0 +1,31 @@
+with(document) {
+write("<div id=\"group1\" class=\"drag\" style=\"position:relative; width:950px; height:671px;\">");
+write("<div id=\"rect1\"class=\"drag\" style=\"width:950px;position:relative;height:671px;\">");
+write("<img id=\"img1\" src=\"../img/SJD7EC00000000K0031BAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:671px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" class=\"drag\" style=\"position:absolute;left:16px;top:144px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FRONT PASSENGER<br>AIRBAG MODULE DANGER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" class=\"drag\" style=\"position:absolute;left:746px;top:523px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>STEERING<br>COLUMN NOTICE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" class=\"drag\" style=\"position:absolute;left:711px;top:598px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>MONITOR NOTICE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" class=\"drag\" style=\"position:absolute;left:153px;top:630px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FRONT SEAT BELT<br>TENSIONER CAUTION<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" class=\"drag\" style=\"position:absolute;left:56px;top:350px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SIDE AIRBAG <br>MODULE DANGER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" class=\"drag\" style=\"position:absolute;left:40px;top:41px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SRS WARNING INFORMATION<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" class=\"drag\" style=\"position:absolute;left:632px;top:61px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>PASSENGER AIRBAG<br>CHILD SEAT CAUTION<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" class=\"drag\" style=\"position:absolute;left:0px;top:15px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b></b>NOTE: The illustration shows the RHD model, the LHD model is similar.<br></nobr>");
+write("</p>");
+write("</div>");
+write("</div>");
+}
